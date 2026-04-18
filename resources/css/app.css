@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+[x-cloak] {
+    display: none !important;
+}
+
+/* Global: prevent text highlighting across the app */
+html, body, * {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+/* Keep form controls and editable areas selectable/interactive */
+input,
+textarea,
+select,
+option,
+[contenteditable="true"] {
+    -webkit-user-select: text;
+    -moz-user-select: text;
+    user-select: text;
+}
+
+/*
+ * Trang chủ khách: nâng nhẹ khi hover — dùng CSS thuần để không phụ thuộc Tailwind JIT
+ * (tránh trường hợp chưa chạy `npm run build` / asset cũ).
+ */
+.guest-home-lift {
+    position: relative;
+    z-index: 0;
+    transform: translateY(0);
+    transition:
+        transform 0.3s ease,
+        box-shadow 0.3s ease,
+        border-color 0.3s ease,
+        background-color 0.3s ease;
+}
+.guest-home-lift:hover {
+    z-index: 5;
+    transform: translateY(-6px);
+    box-shadow: 0 20px 44px -14px rgba(0, 0, 0, 0.55);
+    border-color: rgba(255, 255, 255, 0.22) !important;
+    background-color: rgba(255, 255, 255, 0.06) !important;
+}
+.guest-home-lift--subtle:hover {
+    box-shadow: 0 14px 34px -12px rgba(0, 0, 0, 0.48);
+    background-color: rgba(255, 255, 255, 0.07) !important;
+}
+
+body.admin-theme,
+body.guest-theme {
+    color: #1f2937;
+    font-family: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+}
+
+body.admin-theme {
+    background-color: #f8fafc;
+}
+
+body.guest-theme {
+    background: #f9fafb;
+}

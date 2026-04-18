@@ -1,0 +1,113 @@
+HUONG DAN SU DUNG DU AN HRM SYSTEM (BAN ZIP)
+============================================
+
+1) YEU CAU MOI TRUONG
+---------------------
+- Windows + XAMPP (khuyen nghi).
+- PHP 8.2+.
+- Composer 2+.
+- MySQL/MariaDB (qua XAMPP).
+- Node.js 18+ va npm (neu can build frontend).
+
+
+2) CAC BUOC KHOI DONG NHANH
+---------------------------
+Buoc 1: Giai nen file zip vao thu muc mong muon
+        Vi du: C:\xampp\htdocs\VD\BTL
+
+Buoc 2: Mo terminal tai thu muc du an
+        cd C:\xampp\htdocs\VD\BTL
+
+Buoc 3: Cai dependencies PHP
+        composer install
+
+Buoc 4: Tao file env neu chua co
+        copy .env.example .env
+        (Neu da co .env thi bo qua)
+
+Buoc 5: Tao app key (neu can)
+        php artisan key:generate
+
+Buoc 6: Cau hinh database trong file .env
+        DB_CONNECTION=mysql
+        DB_HOST=127.0.0.1
+        DB_PORT=3306
+        DB_DATABASE=<ten_db>
+        DB_USERNAME=<user_db>
+        DB_PASSWORD=<pass_db>
+
+Buoc 7: Chay migrate
+        php artisan migrate
+
+Buoc 8: Don cache
+        php artisan optimize:clear
+
+Buoc 9: Chay server
+        php artisan serve
+        Truy cap: http://127.0.0.1:8000
+
+
+3) NEU CAN CHAY FRONTEND (VITE)
+-------------------------------
+- Cai dependencies:
+  npm install
+
+- Chay dev:
+  npm run dev
+
+Hoac build:
+  npm run build
+
+
+4) DANG NHAP / PHAN QUYEN (TOM TAT)
+-----------------------------------
+- He thong co cac vai tro nhu: customer, receptionist, admin, ...
+- Quyen truy cap route phu thuoc role.
+- Neu can tao user mau, hay su dung seeder/noi bo cua nhom phat trien.
+
+
+5) CAC LENH KIEM TRA NHANH
+--------------------------
+- Kiem tra thong tin he thong:
+  php artisan about
+
+- Kiem tra route:
+  php artisan route:list
+
+- Chay test:
+  php artisan test
+
+
+6) LOI THUONG GAP VA CACH XU LY
+-------------------------------
+- Loi cache route/config/view:
+  php artisan optimize:clear
+
+- Loi ket noi DB:
+  Kiem tra thong tin DB_* trong .env, dam bao MySQL dang chay.
+
+- Loi SMTP/gui mail:
+  Kiem tra MAIL_* trong .env va ket noi internet/DNS.
+
+- Loi quyen file storage:
+  Dam bao da co symlink storage neu can:
+  php artisan storage:link
+
+
+7) LUU Y KHI GUI CHO NGUOI KHAC
+-------------------------------
+- Nen GUI kem file nay + ma nguon.
+- Khong chia se thong tin nhay cam:
+  + APP_KEY that
+  + MAT KHAU DB
+  + API key / SMTP password that
+- Khuyen nghi nguoi nhan tu tao/cap nhat file .env rieng.
+
+
+8) THONG TIN BO SUNG
+--------------------
+- Neu du an dung URL con (subfolder), can kiem tra APP_URL trong .env.
+- Timezone khuyen nghi:
+  APP_TIMEZONE=Asia/Ho_Chi_Minh
+
+Ket thuc.
