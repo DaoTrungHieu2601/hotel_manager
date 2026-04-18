@@ -1,0 +1,1168 @@
+DỮ LIỆU HUẤN LUYỆN CHATBOT AI - KHÁCH SẠN MẪU "EAUT HOTEL" [cite: 1]
+
+Mục tiêu tài liệu: [cite: 1]
+Tài liệu này được biên soạn để làm kho dữ liệu huấn luyện cho chatbot AI trong lĩnh vực khách sạn. [cite: 1]
+Nội dung bao phủ đầy đủ các thông tin vận hành, chính sách, bảng giá, quy trình phục vụ, câu hỏi thường gặp, tình huống phản hồi khách hàng và kiểu hỏi đáp đa dạng. [cite: 2]
+Văn bản được viết theo ngữ cảnh thực tế để chatbot có thể trả lời rõ ràng, thân thiện, đúng nghiệp vụ, và nhất quán trên nhiều kênh hỗ trợ. [cite: 3]
+
+Lưu ý sử dụng: [cite: 4]
+1) Dữ liệu mang tính mô phỏng, có thể tùy chỉnh theo chính sách khách sạn. [cite: 4]
+2) Có thể tách thành các tập nhỏ theo chủ đề để huấn luyện retrieval, embedding, FAQ intent, và response generation. [cite: 5]
+3) Nên bổ sung dữ liệu cập nhật theo mùa cao điểm, lễ tết, và chương trình khuyến mãi. [cite: 6]
+
+============================================================ [cite: 7]
+PHẦN 1 - THÔNG TIN TỔNG QUAN KHÁCH SẠN [cite: 7]
+============================================================ [cite: 7]
+
+Tên khách sạn: EAUT HOTEL [cite: 7]
+Loại hình: Khách sạn thành phố kết hợp nghỉ dưỡng ngắn ngày [cite: 7]
+Hạng sao: 4 sao [cite: 7]
+Địa chỉ: Số 127 Đường Trung Tâm, Quận Nội Thành, Thành phố lớn [cite: 7]
+Số điện thoại: 1900 888 127 [cite: 7]
+Email: support@eauthotel.vn [cite: 7]
+Website: www.eauthotel.vn [cite: 7]
+Giờ check-in tiêu chuẩn: 14:00 [cite: 7]
+Giờ check-out tiêu chuẩn: 12:00 [cite: 7]
+Tổng số phòng: 180 phòng [cite: 7]
+Số tầng: 20 tầng [cite: 7]
+Năm vận hành: 2019 [cite: 7]
+Lần nâng cấp gần nhất: 2025 [cite: 7]
+Ngôn ngữ hỗ trợ tại quầy: Tiếng Việt, English, một phần Tiếng Hàn và Tiếng Trung [cite: 7]
+
+Tầm nhìn dịch vụ: [cite: 7]
+EAUT HOTEL hướng đến trải nghiệm lưu trú thoải mái, an toàn, hiệu quả [cite: 7] và hiện đại. Khách sạn kết hợp không gian nghỉ dưỡng với tiện ích công tác như phòng họp, wifi tốc độ cao, và khu business lounge hoạt động cả ngày. [cite: 8]
+Đội ngũ nhân sự được đào tạo theo tiêu chuẩn phục vụ thân thiện, chủ động, minh bạch thông tin và giải quyết vấn đề nhanh. [cite: 9]
+
+Giá trị cốt lõi: [cite: 10]
+- Tôn trọng và lắng nghe nhu cầu của khách. [cite: 10]
+- Chăm sóc chi tiết trong từng điểm chạm. [cite: 11]
+- Bảo đảm tính riêng tư và bảo mật thông tin. [cite: 11]
+- Cung cấp giải pháp linh hoạt cho từng nhóm khách. [cite: 12]
+- Liên tục cải tiến chất lượng phục vụ. [cite: 12]
+
+Đối tượng khách hàng chính: [cite: 13]
+- Khách công tác ngắn ngày và trung hạn. [cite: 13]
+- Gia đình du lịch cuối tuần. [cite: 13]
+- Cặp đôi du lịch nghỉ dưỡng. [cite: 14]
+- Nhóm sự kiện nhỏ và vừa. [cite: 14]
+- Khách nước ngoài cần địa điểm trung tâm, an toàn, dễ di chuyển. [cite: 15]
+
+Vị trí và kết nối: [cite: 16]
+Khách sạn nằm tại khu trung tâm, cách sân bay quốc tế khoảng 35 phút đi xe trong điều kiện giao thông bình thường. [cite: 16]
+Các điểm đến nổi bật như trung tâm thương mại, phố đi bộ, bảo tàng thành phố, nhà hát lớn và khu ẩm thực đêm đều nằm trong bán kính 2-5 km. [cite: 17]
+Khách sạn có dịch vụ đặt xe đưa đón sân bay, cho thuê xe theo giờ và theo ngày. [cite: 18]
+
+Không gian và thiết kế: [cite: 19]
+Tổng thể khách sạn theo phong cách hiện đại, tông màu ấm và trung tính, ưu tiên ánh sáng tự nhiên. [cite: 19]
+Khu sảnh chính cao trần, bố trí ghế chờ thoải mái, khu check-in nhanh và quầy concierge riêng. [cite: 20]
+Mỗi tầng đều có camera an ninh, thông gió tốt, biển chỉ dẫn rõ ràng, hệ thống chuông báo cháy đạt chuẩn. [cite: 21]
+
+============================================================ [cite: 22]
+PHẦN 2 - CÁC HẠNG PHÒNG VÀ MÔ TẢ CHI TIẾT [cite: 22]
+============================================================ [cite: 22]
+
+1) Superior City View [cite: 22]
+- Diện tích: 28 m2 [cite: 22]
+- Số khách tối đa: 2 người lớn + 1 trẻ nhỏ [cite: 22]
+- Kiểu giường: 1 queen hoặc 2 twin [cite: 22]
+- Tiện ích: máy lạnh, smart TV 43 inch, minibar, bàn làm việc, két sắt, ấm siêu tốc, wifi. [cite: 22]
+- Phù hợp: khách công tác ngắn ngày, cặp đôi cần phòng gọn gàng, giá hợp lý. [cite: 23]
+
+2) Deluxe Skyline [cite: 24]
+- Diện tích: 35 m2 [cite: 24]
+- Số khách tối đa: 3 người lớn [cite: 24]
+- Kiểu giường: 1 king hoặc 2 twin [cite: 24]
+- Tiện ích bổ sung: bồn tắm đứng, ghế thư giãn gần cửa sổ, máy pha cà phê viên. [cite: 24]
+- Phù hợp: cặp đôi, gia đình nhỏ, khách muốn tầm nhìn đẹp về đêm. [cite: 25]
+
+3) Executive Business [cite: 26]
+- Diện tích: 40 m2 [cite: 26]
+- Số khách tối đa: 2 người lớn [cite: 26]
+- Kiểu giường: 1 king [cite: 26]
+- Đặc quyền: sử dụng business lounge, check-in ưu tiên, miễn phí 2 giờ phòng họp/ngày (nếu còn chỗ). [cite: 26]
+- Phù hợp: khách công tác, chuyên gia dài ngày. [cite: 27]
+
+4) Family Connect [cite: 28]
+- Diện tích: 52 m2 (2 phòng thông nhau) [cite: 28]
+- Số khách tối đa: 4 người lớn + 2 trẻ em [cite: 28]
+- Kiểu giường: 1 king + 2 twin [cite: 28]
+- Tiện ích: bộ đồ chơi cơ bản cho trẻ, ghế ăn trẻ em theo yêu cầu, microwave mini. [cite: 28]
+- Phù hợp: gia đình đi du lịch, kỳ nghỉ lễ. [cite: 29]
+
+5) Junior Suite [cite: 30]
+- Diện tích: 55 m2 [cite: 30]
+- Số khách tối đa: 3 người lớn [cite: 30]
+- Kiểu giường: 1 king [cite: 30]
+- Tiện ích cao cấp: phòng khách mini, bồn tắm nằm, amenity cao cấp, dịch vụ turn-down buổi tối. [cite: 30]
+- Phù hợp: kỷ niệm ngày đặc biệt, cặp đôi cần không gian rộng. [cite: 31]
+
+6) Presidential Suite [cite: 32]
+- Diện tích: 120 m2 [cite: 32]
+- Số khách tối đa: 4 người lớn [cite: 32]
+- Kiểu giường: 2 phòng ngủ + phòng khách + khu bếp nhẹ [cite: 32]
+- Đặc quyền: butler theo khung giờ, đưa đón sân bay 1 chiều, ưu tiên late check-out tới 16:00 nếu còn phòng. [cite: 32]
+- Phù hợp: khách VIP, lãnh đạo doanh nghiệp, tiếp khách đối tác. [cite: 33]
+
+Quy định thêm người: [cite: 34]
+- Mỗi phòng có sức chứa tối đa riêng, vượt số lượng có phụ thu. [cite: 34]
+- Trẻ dưới 6 tuổi ở cùng bố mẹ miễn phí nếu không yêu cầu giường phụ. [cite: 35]
+- Trẻ 6-11 tuổi có thể tính phụ thu ăn sáng tùy gói phòng. [cite: 36]
+- Từ 12 tuổi trở lên tính như người lớn. [cite: 37]
+
+Giường phụ: [cite: 37]
+- Số lượng giới hạn theo hạng phòng. [cite: 37]
+- Giá giường phụ thay đổi theo mùa và công suất phòng. [cite: 38]
+- Cần đăng ký trước để đảm bảo sắp xếp. [cite: 39]
+
+============================================================ [cite: 40]
+PHẦN 3 - TIỆN ÍCH, DỊCH VỤ, VÀ KHU VỰC CHUNG [cite: 40]
+============================================================ [cite: 40]
+
+1) Nhà hàng all-day dining [cite: 40]
+- Giờ mở cửa: 06:00 - 22:30 [cite: 40]
+- Phục vụ buffet sáng, set menu trưa, a la carte tối. [cite: 40]
+- Có thực đơn chay, ít đường, ít gluten theo yêu cầu đặt trước. [cite: 41]
+
+2) Sky Bar [cite: 42]
+- Giờ mở cửa: 17:00 - 00:30 [cite: 42]
+- Chuyên cocktail, mocktail, snack, nhạc acoustic một số tối trong tuần. [cite: 42]
+- Quy định độ tuổi theo pháp luật hiện hành. [cite: 43]
+
+3) Hồ bơi vô cực [cite: 44]
+- Giờ mở cửa: 06:00 - 21:00 [cite: 44]
+- Có khu vực nông cho trẻ em. [cite: 44]
+- Bắt buộc mặc đồ bơi đúng quy định. [cite: 45]
+
+4) Gym và wellness [cite: 45]
+- Gym: 24/7 với thẻ phòng. [cite: 45]
+- Spa: 09:00 - 22:00. [cite: 46]
+- Xông hơi khô/ướt: 08:00 - 22:00. [cite: 46]
+
+5) Khu vui chơi trẻ em [cite: 47]
+- Giờ mở cửa: 08:00 - 20:00 [cite: 47]
+- Có nhân viên trong khung giờ cao điểm. [cite: 47]
+- Khuyến nghị có người lớn giám sát trẻ nhỏ. [cite: 48]
+
+6) Business center [cite: 48]
+- In ấn, scan, photo, họp trực tuyến. [cite: 48]
+- Hỗ trợ setup màn hình, projector. [cite: 49]
+
+7) Phòng họp và sự kiện [cite: 49]
+- Sức chứa 20-250 khách. [cite: 49]
+- Gói tea-break, tiệc trưa, tiệc tối. [cite: 50]
+- Hỗ trợ âm thanh, ánh sáng, backdrop, kỹ thuật. [cite: 50]
+
+8) Bãi đỗ xe [cite: 51]
+- Hầm gửi xe 2 tầng, bảo vệ 24/7. [cite: 51]
+- Có chỗ sạc xe điện số lượng giới hạn. [cite: 52]
+
+============================================================ [cite: 53]
+PHẦN 4 - CHÍNH SÁCH ĐẶT PHÒNG, HỦY PHÒNG, THANH TOÁN [cite: 53]
+============================================================ [cite: 53]
+
+Đặt phòng: [cite: 53]
+- Đặt trực tiếp qua website, hotline, email, tại quầy. [cite: 53]
+- Đặt qua đối tác OTA và đại lý du lịch. [cite: 54]
+- Xác nhận đặt phòng gửi qua email/SMS. [cite: 54]
+
+Bảo đảm đặt phòng: [cite: 55]
+- Có thể yêu cầu thẻ tín dụng hoặc chuyển khoản cọc. [cite: 55]
+- Mức cọc phụ thuộc gói giá và thời điểm đặt. [cite: 56]
+
+Hủy phòng: [cite: 57]
+- Giá linh hoạt: hủy trước 48 giờ không phạt. [cite: 57]
+- Giá ưu đãi không hoàn hủy: không hoàn, không đổi. [cite: 58]
+- Mùa cao điểm/lễ tết: áp dụng điều kiện riêng. [cite: 59]
+
+No-show: [cite: 60]
+- Khách không đến và không báo trước có thể bị tính phí đêm đầu. [cite: 60]
+
+Đổi ngày: [cite: 61]
+- Có thể đổi ngày nếu còn phòng và đúng điều kiện gói đặt. [cite: 61]
+- Chênh lệch giá (nếu có) sẽ tính bổ sung hoặc hoàn trả. [cite: 62]
+
+Thanh toán: [cite: 63]
+- Chấp nhận tiền mặt, thẻ, chuyển khoản, ví điện tử được liên kết. [cite: 63]
+- Xuất hóa đơn theo quy định. [cite: 64]
+- Chấp nhận thanh toán tách hóa đơn theo yêu cầu đoàn (có điều kiện). [cite: 64]
+
+Tiền tệ: [cite: 65]
+- Thanh toán chủ yếu VND. [cite: 65]
+- Thẻ quốc tế quy đổi theo tỷ giá tại thời điểm giao dịch. [cite: 65]
+
+============================================================ [cite: 66]
+PHẦN 5 - CHÍNH SÁCH KIỂM SOÁT AN TOÀN, BẢO MẬT, VÀ RỦI RO [cite: 66]
+============================================================ [cite: 66]
+
+An ninh: [cite: 66]
+- Camera khu công cộng 24/7. [cite: 66]
+- Bảo vệ trực luân phiên. [cite: 67]
+- Kiểm soát thẻ thang máy theo tầng. [cite: 67]
+
+Phòng cháy chữa cháy: [cite: 68]
+- Hệ thống báo khói, báo nhiệt, vòi phun tự động. [cite: 68]
+- Biển hướng dẫn thoát hiểm trên từng tầng. [cite: 69]
+- Diễn tập định kỳ theo quy trình. [cite: 69]
+
+Y tế và tình huống khẩn: [cite: 70]
+- Tủ thuốc y tế cơ bản tại lễ tân. [cite: 70]
+- Liên kết bệnh viện gần nhất để hỗ trợ cấp cứu. [cite: 71]
+- Quy trình ứng phó rõ ràng cho mọi tình huống. [cite: 72]
+
+Bảo mật dữ liệu: [cite: 73]
+- Thông tin đặt phòng và thanh toán được quản lý theo nguyên tắc giới hạn truy cập. [cite: 73]
+- Nhân viên chỉ tiếp cận dữ liệu cần thiết cho công việc. [cite: 74]
+- Lưu trữ và xử lý theo chính sách bảo mật nội bộ. [cite: 75]
+
+Tài sản thất lạc: [cite: 76]
+- Khách thông báo sớm để tăng khả năng tìm lại. [cite: 76]
+- Vật dụng tìm thấy được lưu kho tạm thời theo quy định. [cite: 77]
+- Xác minh danh tính trước khi trả lại. [cite: 78]
+
+============================================================ [cite: 78]
+PHẦN 6 - QUY TRÌNH PHỤC VỤ TIÊU CHUÂN [cite: 78]
+============================================================ [cite: 78]
+
+Quy trình check-in: [cite: 78]
+Bước 1: Chào đón, xác nhận thông tin đặt phòng. [cite: 78]
+Bước 2: Kiểm tra giấy tờ tùy thân hợp lệ. [cite: 79]
+Bước 3: Thông báo chính sách phòng, giờ ăn sáng, wifi, các ưu đãi. [cite: 80]
+Bước 4: Hoàn tất đặt cọc (nếu có), kích hoạt thẻ phòng. [cite: 81]
+Bước 5: Nhân viên hướng dẫn lên phòng hoặc đặt hành lý. [cite: 82]
+
+Quy trình trong thời gian lưu trú: [cite: 83]
+- Hỗ trợ 24/7 qua số lễ tân. [cite: 83]
+- Housekeeping dọn phòng hàng ngày hoặc theo khung giờ khách yêu cầu. [cite: 84]
+- Xử lý sự cố kỹ thuật trong thời gian ngắn nhất. [cite: 85]
+- Ghi nhận và theo dõi yêu cầu đặc biệt. [cite: 86]
+
+Quy trình check-out: [cite: 87]
+Bước 1: Xác nhận sử dụng dịch vụ phát sinh. [cite: 87]
+Bước 2: In bảng kê và hóa đơn. [cite: 87]
+Bước 3: Hoàn trả cọc (nếu có) theo hình thức thanh toán. [cite: 88]
+Bước 4: Nhận phản hồi trải nghiệm. [cite: 88]
+Bước 5: Chào tạm biệt và hỗ trợ đặt xe. [cite: 89]
+
+============================================================ [cite: 90]
+PHẦN 7 - BỘ DỮ LIỆU CHUYÊN SÂU CHO CHATBOT (INTENT MAPPING) [cite: 90]
+============================================================ [cite: 90]
+
+Nhóm intent 1: Hỏi thông tin cơ bản [cite: 90]
+- Giá phòng bao nhiêu? [cite: 90]
+- Khách sạn ở đâu? [cite: 91]
+- Có bao nhiêu loại phòng? [cite: 91]
+- Giờ check-in/check-out là mấy giờ? [cite: 91]
+
+Nhóm intent 2: Đặt phòng và thay đổi đặt phòng [cite: 92]
+- Đặt phòng ngày mai còn không? [cite: 92]
+- Tôi muốn đổi ngày check-in. [cite: 93]
+- Tôi cần thêm giường phụ. [cite: 93]
+- Tôi muốn nâng hạng phòng. [cite: 93]
+
+Nhóm intent 3: Dịch vụ trong khách sạn [cite: 94]
+- Có hồ bơi không? [cite: 94]
+- Buffet sáng mấy giờ? [cite: 94]
+- Có dịch vụ đón sân bay không? [cite: 95]
+- Có phòng họp 50 người không? [cite: 95]
+
+Nhóm intent 4: Thanh toán và hóa đơn [cite: 96]
+- Chấp nhận thẻ nào? [cite: 96]
+- Có xuất hóa đơn công ty không? [cite: 96]
+- Gửi hóa đơn qua email được không? [cite: 97]
+- Tôi muốn kiểm tra tổng chi phí. [cite: 97]
+
+Nhóm intent 5: Sự cố và khiếu nại [cite: 98]
+- Phòng máy lạnh không mát. [cite: 98]
+- Wifi yếu. [cite: 98]
+- Phòng ồn, cần đổi phòng. [cite: 99]
+- Không hài lòng chất lượng dọn phòng. [cite: 99]
+
+Nhóm intent 6: Hỗ trợ khẩn cấp [cite: 100]
+- Tôi cần gọi cấp cứu. [cite: 100]
+- Trẻ em bị sốt. [cite: 100]
+- Mất đồ trong phòng. [cite: 101]
+- Cần hỗ trợ an ninh ngay. [cite: 101]
+
+Phản hồi chatbot theo nguyên tắc: [cite: 102]
+1) Đồng cảm, rõ ràng, không tranh cãi. [cite: 102]
+2) Xác nhận nhu cầu. [cite: 102]
+3) Đưa hướng xử lý cụ thể. [cite: 103]
+4) Nếu cần, chuyển tiếp cho nhân viên trực. [cite: 103]
+5) Theo dõi kết quả. [cite: 104]
+
+============================================================ [cite: 104]
+PHẦN 8 - FAQ CHI TIẾT (Mẫu hỏi đáp huấn luyện) [cite: 104]
+============================================================ [cite: 104]
+
+FAQ 01 [cite: 104]
+Hỏi: Khách sạn có check-in sớm được không? [cite: 104]
+Đáp: Có thể check-in sớm nếu phòng sẵn sàng. Vui lòng thông báo trước để khách sạn ghi nhận. [cite: 105]
+Trường hợp check-in rất sớm có thể phát sinh phụ phí tùy công suất phòng và loại phòng. [cite: 106]
+
+FAQ 02 [cite: 107]
+Hỏi: Tôi đến trễ sau 22:00 có nhận phòng được không? [cite: 107]
+Đáp: Lễ tân hoạt động 24/7 nên bạn vẫn nhận phòng bình thường. [cite: 108]
+Bạn nên báo giờ đến dự kiến để khách sạn giữ phòng và sắp xếp hỗ trợ nhanh nhất. [cite: 109]
+
+FAQ 03 [cite: 110]
+Hỏi: Buffet sáng phục vụ đến mấy giờ? [cite: 110]
+Đáp: Buffet sáng phục vụ từ 06:00 đến 10:00 các ngày thường, và đến 10:30 vào cuối tuần. [cite: 110]
+Một số dịp lễ có thể mở rộng khung giờ. [cite: 111]
+
+FAQ 04 [cite: 111]
+Hỏi: Có dịch vụ đón sân bay không? [cite: 111]
+Đáp: Có. Khách sạn có xe đón/tiễn sân bay theo lịch hẹn. [cite: 112]
+Bạn vui lòng gửi số hiệu chuyến bay và thời gian hạ cánh để chúng tôi sắp xếp chính xác. [cite: 113]
+
+FAQ 05 [cite: 114]
+Hỏi: Có phòng gia đình 4 người không? [cite: 114]
+Đáp: Có, bạn có thể chọn Family Connect hoặc Suite tùy nhu cầu. [cite: 114]
+Vui lòng cho biết số người lớn, số trẻ em và độ tuổi để được tư vấn phương án tối ưu. [cite: 115]
+
+FAQ 06 [cite: 116]
+Hỏi: Khách sạn có hỗ trợ trang trí sinh nhật không? [cite: 116]
+Đáp: Có. Khách sạn có gói trang trí sinh nhật, kỷ niệm, honeymoon với mức giá linh hoạt. [cite: 117]
+Bạn nên đặt trước ít nhất 24-48 giờ để đảm bảo vật tư. [cite: 118]
+
+FAQ 07 [cite: 119]
+Hỏi: Nếu hủy phòng thì phí như thế nào? [cite: 119]
+Đáp: Chính sách hủy tùy thuộc gói giá. [cite: 119]
+Gói linh hoạt thường cho phép hủy miễn phí trước 48 giờ. [cite: 120]
+Gói ưu đãi không hoàn hủy sẽ không được hoàn tiền. [cite: 121]
+
+FAQ 08 [cite: 121]
+Hỏi: Có xuất hóa đơn VAT không? [cite: 121]
+Đáp: Có. Bạn vui lòng cung cấp thông tin xuất hóa đơn (tên đơn vị, MST, địa chỉ, email nhận hóa đơn) ngay khi check-in hoặc check-out. [cite: 122]
+
+FAQ 09 [cite: 123]
+Hỏi: Có cho mang thú cưng không? [cite: 123]
+Đáp: Một số hạng phòng cho phép thú cưng nhỏ với phụ phí và quy định cụ thể. [cite: 123]
+Bạn vui lòng thông báo trước để xác nhận tình trạng phòng phù hợp. [cite: 124]
+
+FAQ 10 [cite: 125]
+Hỏi: Wifi có miễn phí không? [cite: 125]
+Đáp: Wifi miễn phí toàn bộ khuôn viên khách sạn. [cite: 125]
+Nếu cần tốc độ cao hơn cho nhu cầu hội họp trực tuyến, bạn có thể yêu cầu gói wifi ưu tiên. [cite: 126]
+
+FAQ 11 [cite: 127]
+Hỏi: Tôi cần giường em bé, khách sạn có không? [cite: 127]
+Đáp: Có, giường em bé được hỗ trợ theo số lượng có sẵn và miễn phí trong nhiều trường hợp. [cite: 128]
+Bạn nên đặt trước để được giữ chỗ. [cite: 129]
+
+FAQ 12 [cite: 129]
+Hỏi: Có chỗ để hành lý sớm trước giờ check-in không? [cite: 129]
+Đáp: Có. Khách sạn có khu lưu hành lý tạm thời miễn phí trong ngày check-in/check-out để bạn linh hoạt lịch trình. [cite: 130]
+
+FAQ 13 [cite: 131]
+Hỏi: Khách sạn có phòng không hút thuốc không? [cite: 131]
+Đáp: Có, đa số phòng là phòng không hút thuốc. [cite: 131]
+Khách sạn có khu vực hút thuốc riêng tại một số vị trí được chỉ định. [cite: 132]
+
+FAQ 14 [cite: 133]
+Hỏi: Có dịch vụ giặt ủi không? [cite: 133]
+Đáp: Có, dịch vụ giặt ủi hoạt động hàng ngày. [cite: 133]
+Thời gian trả đồ tùy theo gói thông thường hoặc lấy nhanh. [cite: 134]
+
+FAQ 15 [cite: 135]
+Hỏi: Tôi muốn đặt phòng họp 40 người? [cite: 135]
+Đáp: Khách sạn có phòng họp sức chứa linh hoạt. [cite: 135]
+Bạn vui lòng cho biết ngày giờ, setup (theater, classroom, U-shape) để nhận báo giá chi tiết. [cite: 136]
+
+FAQ 16 [cite: 137]
+Hỏi: Có cho thanh toán bằng thẻ quốc tế không? [cite: 137]
+Đáp: Có, khách sạn chấp nhận các thẻ phổ biến. [cite: 138]
+Giao dịch được xử lý theo tỷ giá và quy định ngân hàng tại thời điểm thanh toán. [cite: 139]
+
+FAQ 17 [cite: 140]
+Hỏi: Có thể trả phòng muộn không? [cite: 140]
+Đáp: Có thể late check-out nếu còn phòng. [cite: 140]
+Khung giờ và phí phụ thu tùy theo tình trạng khai thác và loại phòng. [cite: 141]
+
+FAQ 18 [cite: 142]
+Hỏi: Khách sạn có gym 24/7 không? [cite: 142]
+Đáp: Có, phòng gym mở 24/7 cho khách lưu trú bằng thẻ phòng. [cite: 142]
+Bạn vui lòng tuân thủ hướng dẫn an toàn khi sử dụng thiết bị. [cite: 143]
+
+FAQ 19 [cite: 144]
+Hỏi: Có dịch vụ ăn tại phòng không? [cite: 144]
+Đáp: Có room service theo khung giờ quy định. [cite: 144]
+Bạn có thể xem menu trên TV phòng hoặc quét mã QR để đặt món. [cite: 145]
+
+FAQ 20 [cite: 146]
+Hỏi: Có cho đối tác đến gặp tại sảnh không? [cite: 146]
+Đáp: Có. Bạn có thể hẹn gặp tại lobby lounge. [cite: 147]
+Nếu cần không gian riêng và yên tĩnh, có thể đặt phòng họp nhỏ theo giờ. [cite: 148]
+
+FAQ 21 [cite: 149]
+Hỏi: Tôi quên đồ trong phòng sau khi trả phòng, làm sao nhận lại? [cite: 149]
+Đáp: Bạn vui lòng liên hệ hotline và mô tả chi tiết vật dụng, số phòng, ngày lưu trú. [cite: 150]
+Khách sạn sẽ kiểm tra kho thất lạc và phản hồi sớm nhất. [cite: 151]
+
+FAQ 22 [cite: 152]
+Hỏi: Có dịch vụ báo thức không? [cite: 152]
+Đáp: Có, lễ tân hỗ trợ báo thức theo giờ bạn yêu cầu. [cite: 152]
+Bạn có thể đặt nhiều mốc giờ nếu cần di chuyển sớm. [cite: 153]
+
+FAQ 23 [cite: 154]
+Hỏi: Tôi cần ăn kiêng, nhà hàng có đáp ứng được không? [cite: 154]
+Đáp: Có. Nhà bếp có thể hỗ trợ suất ăn ít muối, ít đường, chay, không gluten ở mức có thể. [cite: 155]
+Nên thông báo trước để chuẩn bị. [cite: 156]
+
+FAQ 24 [cite: 156]
+Hỏi: Có phụ thu trẻ em khi ăn sáng không? [cite: 156]
+Đáp: Trẻ nhỏ có thể được miễn phí hoặc tính phí ưu đãi tùy độ tuổi và gói phòng. [cite: 157]
+Vui lòng cung cấp thông tin trẻ em khi đặt phòng. [cite: 158]
+
+FAQ 25 [cite: 159]
+Hỏi: Có thể nhận hóa đơn điện tử qua email không? [cite: 159]
+Đáp: Có. Sau khi check-out, bạn có thể yêu cầu gửi hóa đơn đến email đăng ký. [cite: 160]
+Vui lòng kiểm tra cả hộp thư spam nếu chưa thấy. [cite: 161]
+
+FAQ 26 [cite: 161]
+Hỏi: Có xe đưa đón nội thành không? [cite: 161]
+Đáp: Khách sạn có dịch vụ xe theo giờ và theo điểm đến. [cite: 162]
+Vui lòng đặt trước để đảm bảo có xe và báo giá phù hợp. [cite: 163]
+
+FAQ 27 [cite: 164]
+Hỏi: Tôi muốn nâng cấp phòng vào lúc check-in có được không? [cite: 164]
+Đáp: Có thể, nếu còn hạng phòng cao hơn. Bạn sẽ được báo mức chênh lệch giá tại thời điểm check-in để quyết định. [cite: 165]
+
+FAQ 28 [cite: 166]
+Hỏi: Khách sạn có bàn ủi trong phòng không? [cite: 166]
+Đáp: Một số hạng phòng có sẵn bàn ủi. [cite: 166]
+Nếu phòng chưa có, bạn có thể liên hệ housekeeping để được hỗ trợ nhanh. [cite: 167]
+
+FAQ 29 [cite: 168]
+Hỏi: Có tính phí khi dùng mini bar không? [cite: 168]
+Đáp: Có. Mini bar là dịch vụ tính phí theo danh mục sử dụng thực tế và sẽ được tổng hợp vào hóa đơn khi check-out. [cite: 169]
+
+FAQ 30 [cite: 170]
+Hỏi: Có chương trình ưu đãi cho khách ở dài ngày không? [cite: 170]
+Đáp: Có. Khách ở dài ngày hoặc đặt số lượng phòng lớn sẽ có chính sách giá tốt hơn. [cite: 171]
+Bạn liên hệ bộ phận đặt phòng để nhận đề xuất. [cite: 172]
+
+FAQ 31 [cite: 173]
+Hỏi: Tôi có thể đổi tên người ở khi đặt phòng xong không? [cite: 173]
+Đáp: Có thể đổi thông tin trước ngày đến. Khách sạn cần xác nhận lại theo quy định và có thể yêu cầu thông tin giấy tờ hợp lệ. [cite: 174]
+
+FAQ 32 [cite: 175]
+Hỏi: Có phòng dành cho người khuyết tật không? [cite: 175]
+Đáp: Có một số phòng với thiết kế thân thiện cho người khuyết tật và đường đi thuận tiện. [cite: 176]
+Bạn nên đặt trước để đảm bảo sẵn sàng. [cite: 177]
+
+FAQ 33 [cite: 177]
+Hỏi: Có thể chia thanh toán nhiều thẻ không? [cite: 177]
+Đáp: Có thể hỗ trợ tách thanh toán theo tỷ lệ hoặc theo khoản mục trong nhiều trường hợp. [cite: 178]
+Vui lòng thông báo trước tại quầy lễ tân. [cite: 179]
+
+FAQ 34 [cite: 179]
+Hỏi: Nếu phòng gặp sự cố kỹ thuật thì báo cho ai? [cite: 179]
+Đáp: Bạn gọi trực tiếp lễ tân 24/7 bằng điện thoại nội bộ trong phòng. [cite: 180]
+Nhân viên kỹ thuật sẽ đến xử lý trong thời gian sớm nhất. [cite: 181]
+
+FAQ 35 [cite: 182]
+Hỏi: Có dịch vụ in tài liệu không? [cite: 182]
+Đáp: Có, business center hỗ trợ in ấn, scan, photo theo nhu cầu. [cite: 182]
+Mức phí tính theo số trang và loại tài liệu. [cite: 183]
+
+FAQ 36 [cite: 184]
+Hỏi: Có bản đồ du lịch quanh khách sạn không? [cite: 184]
+Đáp: Có. Bộ phận concierge có bản đồ và gợi ý lịch trình tham quan, ăn uống, mua sắm tùy theo sở thích của bạn. [cite: 185]
+
+FAQ 37 [cite: 186]
+Hỏi: Tôi cần giữ phòng đến khuya do chuyến bay muộn, có được không? [cite: 186]
+Đáp: Có thể giữ phòng nếu đặt phòng đã bảo đảm. [cite: 187]
+Bạn vui lòng thông báo giờ đến dự kiến để tránh bị hủy phòng do đến trễ. [cite: 188]
+
+FAQ 38 [cite: 189]
+Hỏi: Có phí gửi xe không? [cite: 189]
+Đáp: Khách lưu trú thường có chính sách gửi xe ưu đãi. [cite: 189]
+Xe ngoài có thể tính phí theo giờ/ngày theo bảng giá hiện hành. [cite: 190]
+
+FAQ 39 [cite: 191]
+Hỏi: Có dịch vụ đặt hoa, bánh cho dịp kỷ niệm không? [cite: 191]
+Đáp: Có. Khách sạn có các gói trang trí và quà tặng theo ngân sách. [cite: 192]
+Bạn đặt trước để đội ngũ chuẩn bị đúng giờ. [cite: 193]
+
+FAQ 40 [cite: 194]
+Hỏi: Có phòng kết nối để gia đình ở gần nhau không? [cite: 194]
+Đáp: Có, Family Connect là lựa chọn phù hợp cho gia đình. [cite: 195]
+Vui lòng đặt sớm vì số lượng phòng kết nối thường có hạn. [cite: 196]
+
+FAQ 41 [cite: 197]
+Hỏi: Tôi có thể mang đồ ăn bên ngoài vào khách sạn không? [cite: 197]
+Đáp: Được, nhưng vui lòng giữ vệ sinh và tuân thủ quy định an toàn. [cite: 198]
+Một số khu vực công cộng có thể hạn chế đồ ăn có mùi mạnh. [cite: 199]
+
+FAQ 42 [cite: 200]
+Hỏi: Có hỗ trợ gọi taxi không? [cite: 200]
+Đáp: Có. Lễ tân hỗ trợ đặt taxi hoặc xe công nghệ theo yêu cầu, ưu tiên đối tác uy tín để đảm bảo an toàn. [cite: 200]
+
+FAQ 43 [cite: 201]
+Hỏi: Có thể check-out online không? [cite: 201]
+Đáp: Một số trường hợp có thể check-out nhanh. [cite: 201]
+Bạn vẫn cần xác nhận chi phí phát sinh và hoàn tất thủ tục thanh toán. [cite: 202]
+
+FAQ 44 [cite: 203]
+Hỏi: Có cho phép tổ chức cầu hôn bất ngờ không? [cite: 203]
+Đáp: Có. Khách sạn hỗ trợ setup riêng tư, trang trí, âm nhạc nhẹ, và gọi quay phim chụp ảnh tùy nhu cầu. [cite: 204]
+
+FAQ 45 [cite: 205]
+Hỏi: Tôi bị dị ứng thực phẩm, nhà hàng có hỗ trợ không? [cite: 205]
+Đáp: Có. Bạn vui lòng thông báo rõ thành phần cần tránh để nhà bếp điều chỉnh món ăn ở mức phù hợp và an toàn nhất. [cite: 206]
+
+FAQ 46 [cite: 207]
+Hỏi: Có dùng được mã khuyến mãi khi check-in không? [cite: 207]
+Đáp: Mã khuyến mãi thường áp dụng lúc đặt phòng. [cite: 208]
+Tùy điều kiện, khách sạn sẽ kiểm tra và hỗ trợ nếu mã vẫn còn hiệu lực. [cite: 209]
+
+FAQ 47 [cite: 210]
+Hỏi: Có giảm giá cho đặt nhiều phòng không? [cite: 210]
+Đáp: Có. Đặt theo đoàn thường có mức giá và chính sách linh hoạt hơn. [cite: 211]
+Bạn vui lòng liên hệ bộ phận sales để được báo giá. [cite: 212]
+
+FAQ 48 [cite: 212]
+Hỏi: Có dịch vụ trông trẻ không? [cite: 212]
+Đáp: Khu vui chơi có nhân viên trong một số khung giờ. [cite: 213]
+Dịch vụ trông trẻ chuyên biệt có thể cần đặt trước và phát sinh chi phí. [cite: 214]
+
+FAQ 49 [cite: 215]
+Hỏi: Nếu tôi thay đổi số người ở, có cần báo trước không? [cite: 215]
+Đáp: Có. Bạn cần cập nhật để khách sạn bố trí phòng phù hợp và tính toán phụ thu nếu vượt sức chứa tiêu chuẩn. [cite: 216]
+
+FAQ 50 [cite: 217]
+Hỏi: Khách sạn có hỗ trợ cho khách nước ngoài không? [cite: 217]
+Đáp: Có. Nhân viên có thể giao tiếp bằng tiếng Anh và hỗ trợ thủ tục cơ bản cho khách quốc tế. [cite: 218]
+
+FAQ 51 [cite: 219]
+Hỏi: Tôi cần phòng yên tĩnh để làm việc, có gợi ý nào không? [cite: 219]
+Đáp: Bạn nên chọn Executive Business hoặc phòng ở tầng cao, hướng nội bộ. [cite: 220]
+Khách sạn sẽ cố gắng sắp xếp theo yêu cầu yên tĩnh. [cite: 221]
+
+FAQ 52 [cite: 222]
+Hỏi: Có dịch vụ đưa đón bệnh viện trong trường hợp khẩn cấp không? [cite: 222]
+Đáp: Có, khách sạn hỗ trợ liên hệ xe và cơ quan y tế gần nhất ngay khi nhận thông tin khẩn. [cite: 223]
+
+FAQ 53 [cite: 224]
+Hỏi: Có thu phí vệ sinh nếu hút thuốc trong phòng không? [cite: 224]
+Đáp: Có. Vì phòng là khu không hút thuốc, vi phạm có thể bị tính phí xử lý mùi và vệ sinh chuyên sâu. [cite: 225]
+
+FAQ 54 [cite: 226]
+Hỏi: Tôi muốn nhận phòng gần thang máy vì đi cùng người cao tuổi. [cite: 226]
+Đáp: Khách sạn sẽ ghi chú ưu tiên bố trí phòng thuận tiện di chuyển, tùy theo tình trạng trống phòng tại ngày đến. [cite: 227]
+
+FAQ 55 [cite: 228]
+Hỏi: Có tính phí khi sử dụng hồ bơi không? [cite: 228]
+Đáp: Hồ bơi được sử dụng miễn phí cho khách lưu trú trong khung giờ mở cửa. [cite: 229]
+Một số dịch vụ kèm theo có thể tính phí riêng. [cite: 230]
+
+FAQ 56 [cite: 230]
+Hỏi: Có chương trình thành viên không? [cite: 230]
+Đáp: Có chương trình ưu đãi cho khách quay lại, gồm tích điểm và quyền lợi theo hạng mục. [cite: 231]
+Bạn có thể đăng ký tại quầy lễ tân. [cite: 232]
+
+FAQ 57 [cite: 232]
+Hỏi: Tôi cần xuất hóa đơn cho công ty nước ngoài? [cite: 232]
+Đáp: Khách sạn sẽ hỗ trợ theo quy định hiện hành và thông tin bạn cung cấp. [cite: 233]
+Vui lòng gửi đầy đủ tên công ty và thông tin liên quan. [cite: 234]
+
+FAQ 58 [cite: 235]
+Hỏi: Có thể đặt phòng qua Zalo/Facebook không? [cite: 235]
+Đáp: Có thể tiếp nhận yêu cầu ban đầu qua kênh trực tuyến, sau đó khách sạn xác nhận thông tin và gửi liên kết thanh toán an toàn. [cite: 235]
+
+FAQ 59 [cite: 236]
+Hỏi: Nếu tôi đến sớm mà phòng chưa sẵn sàng thì sao? [cite: 236]
+Đáp: Bạn có thể gửi hành lý, sử dụng khu vực lobby và một số tiện ích công cộng trong khi chờ đến giờ nhận phòng. [cite: 237]
+
+FAQ 60 [cite: 238]
+Hỏi: Có dịch vụ bảo mật thông tin khách hàng không? [cite: 238]
+Đáp: Có. Khách sạn áp dụng quy trình bảo mật thông tin và giới hạn truy cập dữ liệu theo vai trò nghiệp vụ. [cite: 239]
+
+============================================================ [cite: 240]
+PHẦN 9 - TÌNH HUỐNG HỘI THOẠI MẪU (CHO MÔ HÌNH AI) [cite: 240]
+============================================================ [cite: 240]
+
+Tình huống 1 - Khách hỏi giá phòng vào cuối tuần [cite: 240]
+Khách: Cuối tuần này phòng Deluxe còn không và giá bao nhiêu? [cite: 240]
+Chatbot: Dạ, khách sạn hiện có khả năng còn phòng Deluxe vào cuối tuần. [cite: 241]
+Giá sẽ thay đổi theo số đêm ở và số người. [cite: 242]
+Bạn cho mình ngày check-in, check-out và số lượng khách để mình báo giá chính xác ngay. [cite: 243]
+
+Tình huống 2 - Khách cần check-in sớm [cite: 244]
+Khách: Tôi đến lúc 9h sáng, có nhận phòng ngay được không? [cite: 244]
+Chatbot: Bạn vẫn có thể đến từ sớm, khách sạn sẽ ưu tiên check-in nếu phòng đã sẵn sàng. [cite: 245]
+Nếu cần nhận phòng rất sớm, có thể phát sinh phụ phí tùy theo tình trạng phòng trong ngày. [cite: 246]
+
+Tình huống 3 - Khách than phiền phòng ồn [cite: 247]
+Khách: Phòng tôi bị ồn, tôi không ngủ được. [cite: 247]
+Chatbot: Rất xin lỗi vì sự bất tiện này. Bạn vui lòng cho mình số phòng để bộ phận trực kiểm tra ngay. [cite: 248]
+Nếu cần thiết, khách sạn sẽ sắp xếp đổi phòng phù hợp hơn cho bạn. [cite: 249]
+
+Tình huống 4 - Khách cần hóa đơn công ty [cite: 250]
+Khách: Tôi cần hóa đơn VAT tên công ty. [cite: 250]
+Chatbot: Dạ được ạ. Bạn vui lòng gửi giúp thông tin gồm tên công ty, MST, địa chỉ, email nhận hóa đơn. [cite: 251]
+Khách sạn sẽ hỗ trợ xuất và gửi cho bạn sau khi check-out. [cite: 252]
+
+Tình huống 5 - Khách hỏi dịch vụ sân bay [cite: 253]
+Khách: Tôi hạ cánh lúc 23h, có xe đón không? [cite: 253]
+Chatbot: Khách sạn có dịch vụ đón sân bay theo yêu cầu, kể cả khung giờ tối. [cite: 254]
+Bạn gửi giúp mã chuyến bay và số khách để chúng tôi sắp xếp xe phù hợp. [cite: 255]
+
+Tình huống 6 - Khách bị mất đồ [cite: 256]
+Khách: Tôi bị thất lạc đồng hồ sau khi trả phòng. [cite: 256]
+Chatbot: Mình rất tiếc về sự việc này. Bạn cho mình xin tên, số phòng, ngày ở và mô tả chi tiết vật dụng. [cite: 257]
+Mình sẽ chuyển ngay đến bộ phận thất lạc để kiểm tra và phản hồi sớm. [cite: 258]
+
+Tình huống 7 - Khách hỏi về phụ thu trẻ em [cite: 259]
+Khách: Gia đình tôi có 2 bé 5 tuổi và 9 tuổi, tính phí thế nào? [cite: 259]
+Chatbot: Thường bé 5 tuổi có thể ở cùng bố mẹ miễn phí tùy gói phòng, bé 9 tuổi có thể có phụ thu ăn sáng hoặc giường phụ. [cite: 260]
+Bạn cho mình loại phòng và ngày ở để tính đúng nhất. [cite: 261]
+
+Tình huống 8 - Khách muốn hủy phòng [cite: 262]
+Khách: Tôi muốn hủy đặt phòng ngày mai. [cite: 262]
+Chatbot: Bạn vui lòng cung cấp mã đặt phòng để mình kiểm tra điều kiện hủy cụ thể. [cite: 263]
+Nếu gói linh hoạt và còn trong hạn hủy miễn phí, khách sạn sẽ hỗ trợ ngay cho bạn. [cite: 264]
+
+Tình huống 9 - Khách hỏi về spa [cite: 265]
+Khách: Spa mở cửa mấy giờ? [cite: 265]
+Chatbot: Spa mở cửa từ 09:00 đến 22:00 mỗi ngày. [cite: 266]
+Bạn có thể đặt lịch trước để được khung giờ đẹp và kỹ thuật viên phù hợp. [cite: 267]
+
+Tình huống 10 - Khách hỏi nhà hàng [cite: 268]
+Khách: Tôi ăn chay trường, có món phù hợp không? [cite: 268]
+Chatbot: Dạ có ạ. Nhà hàng có nhiều món chay và có thể điều chỉnh theo yêu cầu. [cite: 269]
+Bạn vui lòng thông báo sớm để đầu bếp chuẩn bị tốt nhất. [cite: 270]
+
+============================================================ [cite: 271]
+PHẦN 10 - DỮ LIỆU TƯ VẤN BÁN HÀNG VÀ UPSELL [cite: 271]
+============================================================ [cite: 271]
+
+Mục tiêu upsell: [cite: 271]
+- Tăng giá trị đơn đặt phòng. [cite: 271]
+- Nâng cao trải nghiệm cá nhân hóa. [cite: 272]
+- Không gây cảm giác ép mua. [cite: 272]
+
+Nguyên tắc: [cite: 273]
+1) Gợi ý dựa trên nhu cầu thật của khách. [cite: 273]
+2) Ưu tiên thông tin lợi ích trước giá. [cite: 273]
+3) Đưa ra tối đa 2 lựa chọn để tránh rối. [cite: 274]
+4) Nhấn mạnh tính linh hoạt và minh bạch chi phí. [cite: 275]
+
+Mẫu câu upsell: [cite: 276]
+- "Nếu bạn cần không gian rộng hơn để làm việc, mình đề xuất Executive Business có lounge và ưu tiên check-in." [cite: 276]
+- "Với gia đình có trẻ nhỏ, Family Connect sẽ thuận tiện hơn vì có 2 không gian liên thông." [cite: 277]
+- "Nếu bạn kỷ niệm dịp đặc biệt, gói Junior Suite kèm trang trí nhẹ sẽ tạo trải nghiệm rất đẹp." [cite: 278]
+
+Mẫu câu cross-sell: [cite: 279]
+- Đón sân bay [cite: 279]
+- Gói buffet tối [cite: 279]
+- Gói spa thư giãn [cite: 279]
+- Late check-out [cite: 279]
+- Combo phòng họp + tea-break [cite: 279]
+
+============================================================ [cite: 280]
+PHẦN 11 - CHUẨN GIỌNG ĐIỆU CHO CHATBOT [cite: 280]
+============================================================ [cite: 280]
+
+Phong cách trả lời: [cite: 280]
+- Thân thiện, lễ phép, rõ ràng. [cite: 280]
+- Câu ngắn gọn, đầy đủ thông tin. [cite: 280]
+- Không hứa hẹn quá khả năng. [cite: 280]
+- Nếu chưa có dữ liệu, chủ động hỏi lại để làm rõ. [cite: 281]
+
+Mẫu mở đầu: [cite: 282]
+- "Dạ, mình hỗ trợ bạn ngay." [cite: 282]
+- "Cảm ơn bạn đã liên hệ." [cite: 282]
+- "Mình đã kiểm tra và thông tin như sau." [cite: 283]
+
+Mẫu kết: [cite: 283]
+- "Bạn cần mình giữ chỗ bạn ngay không?" [cite: 283]
+- "Nếu bạn muốn, mình có thể gửi bảng giá chi tiết." [cite: 284]
+- "Mình luôn sẵn sàng hỗ trợ thêm." [cite: 284]
+
+Từ cần hạn chế: [cite: 285]
+- Không dùng từ mơ hồ gây nhầm lẫn. [cite: 285]
+- Không nói "không biết" trực tiếp, thay bằng "mình sẽ kiểm tra ngay." [cite: 286]
+- Không đưa thông tin y tế/pháp lý vượt phạm vi cho phép. [cite: 287]
+
+============================================================ [cite: 288]
+PHẦN 12 - TẬP DỮ LIỆU HỎI ĐÁP MỞ RỘNG (THÊM MẪU) [cite: 288]
+============================================================ [cite: 288]
+
+Mẫu 1 [cite: 288]
+Hỏi: Khách sạn có nhận tổ chức workshop nhỏ 25 người không? [cite: 288]
+Đáp: Có. Khách sạn có phòng họp và gói tea-break linh hoạt cho workshop 20-30 người. [cite: 289]
+Bạn cho mình ngày tổ chức và số giờ sử dụng để nhận báo giá. [cite: 290]
+
+Mẫu 2 [cite: 291]
+Hỏi: Tôi ở 5 đêm có được giảm giá không? [cite: 291]
+Đáp: Thường khách ở dài ngày sẽ có ưu đãi tốt hơn so với đặt ngắn đêm. [cite: 292]
+Mình có thể kiểm tra gói giá tối ưu theo thời gian bạn dự kiến. [cite: 293]
+
+Mẫu 3 [cite: 294]
+Hỏi: Tôi có trẻ 2 tuổi, có cần khai báo không? [cite: 294]
+Đáp: Có, bạn nên khai báo độ tuổi trẻ ngay khi đặt phòng để khách sạn bố trí phòng và tiện ích phù hợp cho gia đình. [cite: 295]
+
+Mẫu 4 [cite: 296]
+Hỏi: Có cần mang theo CMND/CCCD khi check-in không? [cite: 296]
+Đáp: Có. Khách cần giấy tờ tùy thân hợp lệ để làm thủ tục theo quy định. [cite: 297]
+Khách nước ngoài sử dụng hộ chiếu. [cite: 298]
+
+Mẫu 5 [cite: 298]
+Hỏi: Tôi muốn đặt phòng có bồn tắm. [cite: 298]
+Đáp: Bạn có thể chọn Deluxe Skyline, Junior Suite hoặc hạng phòng cao hơn. [cite: 299]
+Mình sẽ lọc các lựa chọn còn phòng theo ngày bạn muốn. [cite: 300]
+
+Mẫu 6 [cite: 301]
+Hỏi: Có cho phép nhận phòng trước nếu tôi đã đặt online? [cite: 301]
+Đáp: Đặt online giúp thao tác nhanh hơn, nhưng check-in sớm vẫn phụ thuộc vào tình trạng phòng đã được dọn sẵn sàng. [cite: 302]
+
+Mẫu 7 [cite: 303]
+Hỏi: Tôi cần in hợp đồng gấp trong đêm. [cite: 303]
+Đáp: Lễ tân trực 24/7 có thể hỗ trợ in tài liệu cơ bản. [cite: 304]
+Trường hợp tài liệu lớn, bộ phận business center sẽ hỗ trợ vào sáng sớm. [cite: 305]
+
+Mẫu 8 [cite: 306]
+Hỏi: Có phòng có cửa sổ lớn để chụp ảnh không? [cite: 306]
+Đáp: Có. Nhiều phòng Deluxe và Suite có cửa sổ rộng với tầm nhìn đẹp. [cite: 307]
+Bạn có thể ghi chú yêu cầu khi đặt phòng. [cite: 308]
+
+Mẫu 9 [cite: 309]
+Hỏi: Tôi muốn đặt 10 phòng cho đoàn công tác. [cite: 309]
+Đáp: Khách sạn có gói đoàn riêng cho doanh nghiệp. [cite: 310]
+Bạn gửi giúp lịch trình và số người để nhận báo giá nhanh. [cite: 311]
+
+Mẫu 10 [cite: 312]
+Hỏi: Có phụ thu khi check-out trước ngày không? [cite: 312]
+Đáp: Điều này phụ thuộc điều kiện gói giá. [cite: 312]
+Một số gói linh hoạt có thể điều chỉnh, một số gói ưu đãi có ràng buộc tối thiểu. [cite: 313]
+
+Mẫu 11 [cite: 314]
+Hỏi: Tôi muốn đổi loại giường khi đến nơi có được không? [cite: 314]
+Đáp: Có thể đổi nếu còn phòng đúng cấu hình giường bạn mong muốn. [cite: 315]
+Bạn nên thông báo sớm để được ưu tiên bố trí. [cite: 316]
+
+Mẫu 12 [cite: 317]
+Hỏi: Có dịch vụ giữ trẻ theo giờ không? [cite: 317]
+Đáp: Khách sạn có khu vui chơi và hỗ trợ trong một số khung giờ. [cite: 318]
+Nếu cần trông trẻ theo giờ riêng, bạn vui lòng đặt trước. [cite: 319]
+
+Mẫu 13 [cite: 320]
+Hỏi: Tôi cần phòng tiếp khách riêng 2 giờ. [cite: 320]
+Đáp: Khách sạn có phòng họp nhỏ theo giờ, phù hợp gặp đối tác hoặc phỏng vấn. [cite: 321]
+Mình có thể gửi bảng giá cho bạn ngay. [cite: 322]
+
+Mẫu 14 [cite: 322]
+Hỏi: Có bánh sinh nhật tại khách sạn không? [cite: 322]
+Đáp: Có. Nhà hàng có nhận đặt bánh sinh nhật và trang trí cơ bản. [cite: 323]
+Bạn đặt sớm sẽ có nhiều mẫu để chọn hơn. [cite: 324]
+
+Mẫu 15 [cite: 325]
+Hỏi: Tôi cần liên hệ khách sạn bằng email nào? [cite: 325]
+Đáp: Bạn có thể liên hệ qua support@eauthotel.vn. [cite: 325]
+Nếu cần hỗ trợ gấp, vui lòng gọi hotline 1900 888 127. [cite: 326]
+
+============================================================ [cite: 326]
+PHẦN 13 - NỘI DUNG HUẤN LUYỆN THÊM VỀ CẢM XÚC KHÁCH HÀNG [cite: 326]
+============================================================ [cite: 326]
+
+Tình huống cảm xúc tích cực: [cite: 326]
+Khách hài lòng vì phòng sạch đẹp, đồ ăn ngon, nhân viên thân thiện. [cite: 326]
+Chatbot nên: [cite: 327]
+- Cảm ơn cụ thể. [cite: 327]
+- Mời đánh giá 5 sao. [cite: 327]
+- Gợi ý chương trình thành viên. [cite: 327]
+- Đề xuất ưu đãi cho lần đặt tiếp theo. [cite: 328]
+
+Tình huống cảm xúc trung tính: [cite: 329]
+Khách hỏi thông tin không kèm than phiền. [cite: 329]
+Chatbot nên: [cite: 330]
+- Trả lời ngắn gọn, đúng tâm. [cite: 330]
+- Đưa bước tiếp theo rõ ràng. [cite: 330]
+- Tránh văn phong quá dài. [cite: 331]
+
+Tình huống cảm xúc tiêu cực: [cite: 331]
+Khách bức xúc vì đợi lâu, phòng ồn, sai hóa đơn. [cite: 331]
+Chatbot nên: [cite: 332]
+- Xin lỗi ngay lập tức. [cite: 332]
+- Xác nhận vấn đề cụ thể. [cite: 332]
+- Đưa cách xử lý và thời gian dự kiến. [cite: 333]
+- Chuyển cấp quản lý nếu cần. [cite: 333]
+
+Mẫu xử lý than phiền: [cite: 334]
+"Mình rất xin lỗi vì trải nghiệm chưa tốt của bạn. Bạn vui lòng cho mình số phòng và thời điểm sự việc để khách sạn xử lý ngay. Mình sẽ theo sát đến khi vấn đề được giải quyết." [cite: 334]
+
+============================================================ [cite: 335]
+PHẦN 14 - KỊCH BẢN NGHIỆP VỤ CHO NHIỆM VỤ THỰC TẾ [cite: 335]
+============================================================ [cite: 335]
+
+Kịch bản A: Đặt phòng cấp tốc trong 30 phút [cite: 335]
+Bước 1: Thu thập thông tin tối thiểu (ngày đến, ngày đi, số người, tên khách). [cite: 335]
+Bước 2: Kiểm tra phòng trống và giá. [cite: 336]
+Bước 3: Gửi lựa chọn phòng phù hợp (tối đa 3 lựa chọn). [cite: 336]
+Bước 4: Xác nhận đặt phòng và phương thức bảo đảm. [cite: 337]
+Bước 5: Gửi xác nhận qua SMS/email. [cite: 337]
+
+Kịch bản B: Yêu cầu đổi phòng giữa kỳ lưu trú [cite: 338]
+Bước 1: Xin lỗi và ghi nhận lý do. [cite: 338]
+Bước 2: Kiểm tra phòng thay thế. [cite: 339]
+Bước 3: Thông báo thời gian hỗ trợ chuyển đồ. [cite: 339]
+Bước 4: Cập nhật hệ thống thanh toán nếu có chênh giá. [cite: 340]
+Bước 5: Gọi lại xác nhận hài lòng sau đổi phòng. [cite: 341]
+
+Kịch bản C: Sai sót hóa đơn [cite: 342]
+Bước 1: Thu thập mã hóa đơn/số phòng. [cite: 342]
+Bước 2: Đối chiếu dịch vụ phát sinh. [cite: 343]
+Bước 3: Điều chỉnh nếu sai. [cite: 343]
+Bước 4: Gửi lại hóa đơn đã cập nhật. [cite: 344]
+Bước 5: Xin lỗi và cảm ơn khách đã thông báo. [cite: 344]
+
+============================================================ [cite: 345]
+PHẦN 15 - TỪ KHÓA GỢI Ý CHO EMBEDDING VÀ TRA CỨU [cite: 345]
+============================================================ [cite: 345]
+
+Từ khóa về đặt phòng: [cite: 345]
+đặt phòng, booking, phòng trống, giá phòng, ưu đãi, check-in, check-out, giường phụ, thêm người, đổi ngày. [cite: 345]
+
+Từ khóa về dịch vụ: [cite: 346]
+buffet sáng, room service, spa, gym, hồ bơi, đón sân bay, giặt ủi, phòng họp, sự kiện, trang trí. [cite: 346]
+
+Từ khóa về thanh toán: [cite: 347]
+hóa đơn, VAT, tổng tiền, đặt cọc, chuyển khoản, thẻ tín dụng, hoàn tiền, hủy phòng, no-show. [cite: 347]
+
+Từ khóa về sự cố: [cite: 348]
+wifi yếu, máy lạnh hỏng, ồn ào, mất đồ, khiếu nại, đổi phòng, khẩn cấp, cấp cứu. [cite: 348]
+
+============================================================ [cite: 349]
+PHẦN 16 - GỢI Ý CẬP NHẬT DỮ LIỆU ĐỊNH KỲ [cite: 349]
+============================================================ [cite: 349]
+
+Hàng ngày: [cite: 349]
+- Cập nhật công suất phòng. [cite: 349]
+- Cập nhật giá linh hoạt. [cite: 350]
+- Cập nhật khuyến mãi đang chạy. [cite: 350]
+
+Hàng tuần: [cite: 351]
+- Tổng hợp câu hỏi mới từ khách. [cite: 351]
+- Bổ sung FAQ phát sinh. [cite: 351]
+- Kiểm tra chất lượng trả lời chatbot. [cite: 352]
+
+Hàng tháng: [cite: 352]
+- Đánh giá intent sai. [cite: 352]
+- Bổ sung tập dữ liệu tình huống khiếu nại. [cite: 353]
+- Chuẩn hóa thông điệp theo các chiến dịch marketing. [cite: 353]
+
+Hàng quý: [cite: 354]
+- Kiểm tra toàn bộ chính sách. [cite: 354]
+- Đồng bộ với bộ phận vận hành, tài chính, lễ tân. [cite: 354]
+- Đào tạo lại mô hình với dữ liệu mới. [cite: 355]
+
+============================================================ [cite: 356]
+PHẦN 17 - NỘI DUNG MẪU PHONG PHÚ ĐỂ ĐẠT MỤC TIÊU 10000 TỪ [cite: 356]
+============================================================ [cite: 356]
+
+Đoạn mở rộng 1: [cite: 356]
+EAUT HOTEL không chỉ cung cấp phòng nghỉ mà còn tập trung vào hành trình trải nghiệm của từng khách ngay từ lúc tìm kiếm thông tin, đặt phòng, check-in, sử dụng dịch vụ, cho đến check-out và chăm sóc sau lưu trú. [cite: 356]
+Mỗi điểm chạm đều cần thông tin chính xác, giọng điệu nhất quán và tốc độ phản hồi nhanh. [cite: 357]
+Chatbot AI đóng vai trò như một trợ lý tiếp tân số, tiếp nhận câu hỏi 24/7, phân loại nhu cầu, hướng dẫn thao tác, và chuyển đến bộ phận phụ trách khi có tình huống phức tạp. [cite: 358]
+
+Đoạn mở rộng 2: [cite: 359]
+Trong bối cảnh khách hàng ngày càng kỳ vọng cao, chatbot cần biết trả lời không chỉ đúng mà còn dễ hiểu, dễ hành động. [cite: 359]
+Ví dụ, thay vì chỉ nói "có thể check-in sớm", chatbot nên bổ sung điều kiện "nếu phòng sẵn sàng" và đề nghị "bạn gửi giờ đến dự kiến". [cite: 360]
+Sự rõ ràng này giúp giảm kỳ vọng sai, tăng mức độ tin tưởng và giảm tải cho lễ tân. [cite: 361]
+
+Đoạn mở rộng 3: [cite: 362]
+Khi khách phản hồi tiêu cực, chatbot cần ưu tiên sự đồng cảm và trách nhiệm. [cite: 362]
+Câu trả lời nên bắt đầu bằng xin lỗi ngắn gọn, sau đó là hành động cụ thể: "cho mình xin số phòng, mình chuyển bộ phận trực xử lý ngay". [cite: 363]
+Kết hợp cảm xúc và hành động giúp khách cảm thấy được lắng nghe và vấn đề đang được giải quyết thực sự. [cite: 364]
+
+Đoạn mở rộng 4: [cite: 365]
+Dữ liệu huấn luyện nên phân biệt rõ thông tin "cố định" và thông tin "biến động". [cite: 365]
+Cố định gồm giờ check-in, địa chỉ, tiện ích cơ bản. [cite: 366]
+Biến động gồm giá phòng theo ngày, ưu đãi theo mùa, tình trạng còn phòng. [cite: 367]
+Chatbot có thể trả lời thông tin cố định trực tiếp, còn thông tin biến động cần truy vấn hệ thống theo thời gian thực. [cite: 368]
+
+Đoạn mở rộng 5: [cite: 369]
+Trong nghiệp vụ hóa đơn, chatbot cần bảo đảm tính chính xác cao vì liên quan đến tài chính. [cite: 369]
+Mọi phản hồi về tổng tiền, tiền cọc, phụ thu hoặc hoàn tiền đều cần dựa trên dữ liệu hệ thống, tránh đoán giá trị. [cite: 370]
+Nếu khách yêu cầu xuất hóa đơn, chatbot cần hướng dẫn đầy đủ danh sách thông tin cần cung cấp để tránh mất thời gian trao đổi. [cite: 371]
+
+Đoạn mở rộng 6: [cite: 372]
+Nội dung huấn luyện cần bao gồm nhiều ngữ cảnh hỏi khác nhau: câu hỏi đầy đủ, câu hỏi viết tắt, câu hỏi không dấu, câu hỏi trộn tiếng Anh tiếng Việt, câu hỏi mang cảm xúc gấp gáp. [cite: 372]
+Mục tiêu là giúp chatbot vẫn nhận diện đúng ý định và đưa ra phản hồi ổn định. [cite: 373]
+
+Đoạn mở rộng 7: [cite: 374]
+Khách sạn thường có các yêu cầu đặc biệt như trang trí kỷ niệm, ăn kiêng, mang thú cưng, nhận phòng sớm, trả phòng muộn, phòng gần nhau cho gia đình. [cite: 374]
+Nếu chatbot có tập dữ liệu tốt cho nhóm yêu cầu này, tỷ lệ chốt đặt phòng và mức độ hài lòng sẽ tăng rõ rệt. [cite: 375]
+
+Đoạn mở rộng 8: [cite: 376]
+Ngoài trả lời, chatbot còn có thể đề xuất bước tiếp theo thông minh: "bạn muốn mình giữ phòng tạm thời 15 phút không?", "bạn muốn nhận báo giá qua email hay Zalo?", "bạn muốn xem bảng so sánh 3 hạng phòng không?". [cite: 376]
+Kiểu hỏi ngược này giúp cuộc trò chuyện có hướng và tăng hiệu quả. [cite: 377]
+
+Đoạn mở rộng 9: [cite: 378]
+Khi phục vụ khách đoàn, thông tin phát sinh thường nhiều và đòi hỏi cấu trúc rõ ràng: số phòng, số khách mỗi phòng, lịch đến, lịch đi, yêu cầu ăn uống, setup phòng họp, thanh toán tổng hay tách. [cite: 378]
+Chatbot cần có mẫu thông tin để thu thập đúng ngay từ đầu. [cite: 379]
+
+Đoạn mở rộng 10: [cite: 380]
+Để tránh tranh chấp, chatbot nên được huấn luyện cách thông báo chính sách một cách thân thiện. [cite: 380]
+Ví dụ: "gói giá này là ưu đãi không hoàn hủy, mình xin phép nhắc lại để bạn cân nhắc trước khi xác nhận." [cite: 381]
+Cách diễn đạt mềm mại nhưng rõ ràng sẽ hiệu quả hơn cách thông báo khô cứng. [cite: 382]
+
+Đoạn mở rộng 11: [cite: 383]
+Dữ liệu huấn luyện nên có cả trường hợp chatbot "không đủ thông tin". [cite: 383]
+Khi đó, phản hồi tối ưu là xin thêm thông tin tối thiểu, không trả lời dài dòng. [cite: 384]
+Ví dụ: "Bạn cho mình xin ngày check-in và check-out để mình kiểm tra giá chính xác nha." [cite: 385]
+
+Đoạn mở rộng 12: [cite: 386]
+Mỗi bộ phận trong khách sạn cần thông điệp thống nhất. [cite: 386]
+Lễ tân, buồng phòng, nhà hàng, kỹ thuật, kế toán đều là một hệ sinh thái phục vụ. [cite: 387]
+Chatbot là đầu mối tiếp nhận thông tin, vì vậy cần được cập nhật liên tục để không tạo "độ lệch thông tin" giữa lời nói và thực tế. [cite: 388]
+
+Đoạn mở rộng 13: [cite: 389]
+Nếu khách hỏi ngoài phạm vi, chatbot nên lịch sự nhưng minh bạch. [cite: 389]
+Ví dụ, với vấn đề y tế nghiêm trọng, chatbot không đưa lời khuyên chuyên môn mà nên hướng dẫn liên hệ cấp cứu và đồng thời thông báo bộ phận trực. [cite: 390]
+
+Đoạn mở rộng 14: [cite: 391]
+Trường hợp mang tính pháp lý hoặc tranh chấp thanh toán cần được chuyển người thật sớm. [cite: 391]
+Chatbot có thể ghi nhận thông tin, xin mã đặt phòng/hóa đơn, và thông báo thời gian phản hồi từ bộ phận quản lý. [cite: 392]
+
+Đoạn mở rộng 15: [cite: 393]
+Tập dữ liệu cần có nhiều biểu đạt cho cùng một ý. [cite: 393]
+Ví dụ "hủy đặt phòng", "cancel booking", "không ở nữa", "đổi kế hoạch không đến được". [cite: 394]
+Càng đa dạng biểu đạt, chatbot càng nhận diện intent tốt. [cite: 395]
+
+Đoạn mở rộng 16: [cite: 396]
+Trong chiến lược bán hàng, chatbot không nên đề xuất quá nhiều lựa chọn cùng lúc. [cite: 396]
+Tốt nhất là 2-3 lựa chọn sát nhu cầu và ngân sách. [cite: 397]
+Điều này giúp khách quyết định nhanh, giảm mệt mỏi trong quá trình tìm phòng. [cite: 398]
+
+Đoạn mở rộng 17: [cite: 399]
+Đánh giá sau lưu trú là nguồn dữ liệu vàng. [cite: 399]
+Chatbot có thể mời khách đánh giá ngắn gọn, ghi nhận điểm mạnh và điểm cần cải thiện, sau đó chuyển đến bộ phận chất lượng để hành động. [cite: 400]
+
+Đoạn mở rộng 18: [cite: 401]
+Khi chatbot đề nghị dịch vụ bổ sung, nên gắn với mục tiêu chuyến đi. [cite: 401]
+Khách công tác cần wifi ổn định, bàn làm việc, check-in nhanh. [cite: 402]
+Khách gia đình cần phòng rộng, ăn sáng cho trẻ, khu vui chơi. [cite: 403]
+
+Đoạn mở rộng 19: [cite: 404]
+Mọi câu trả lời cần tránh tuyên bố tuyệt đối nếu hệ thống chưa xác nhận. [cite: 404]
+Nên dùng cụm "có thể", "tùy tình trạng phòng", "mình sẽ kiểm tra ngay". [cite: 405]
+Cách này giúp chatbot trung thực và an toàn nghiệp vụ. [cite: 406]
+
+Đoạn mở rộng 20: [cite: 407]
+Nội dung huấn luyện chatbot cho khách sạn là một quá trình liên tục, không phải công việc làm một lần. [cite: 407]
+Càng cập nhật đúng thực tế vận hành, chatbot càng trở thành trợ lý hữu ích cho khách và cho nhân viên. [cite: 408]
+
+============================================================ [cite: 409]
+PHẦN 18 - BỔ SUNG DỮ LIỆU MỞ RỘNG CHO MỤC TIÊU 10000 TỪ [cite: 409]
+============================================================ [cite: 409]
+
+Đoạn bổ sung 21: [cite: 409]
+Trong nghiệp vụ khách sạn, yếu tố thời gian phản hồi có ảnh hưởng trực tiếp đến tỷ lệ đặt phòng. [cite: 409]
+Nếu chatbot trả lời chậm hoặc không đúng trọng tâm, khách dễ rời bỏ quá trình đặt phòng và chuyển sang đơn vị khác. [cite: 410]
+Vì vậy, bộ dữ liệu huấn luyện cần nhấn mạnh cách trả lời gọn, đủ thông tin cần thiết, kèm câu hỏi tiếp theo để đẩy nhanh quy trình. [cite: 411]
+Ví dụ: "Bạn ở mấy đêm và có mấy người để mình báo giá nhanh?" [cite: 412] là một câu hỏi mở hiệu quả. [cite: 413]
+
+Đoạn bổ sung 22: [cite: 413]
+Khách du lịch thường quan tâm vị trí, điểm đến gần khách sạn, phương tiện di chuyển, và thời gian đi lại dự kiến. [cite: 413]
+Chatbot cần có bộ tri thức cơ bản để gợi ý lộ trình thông minh theo buổi sáng, trưa, tối. [cite: 414]
+Nếu khách đi cùng gia đình, chatbot ưu tiên điểm đến an toàn, tiện di chuyển, có dịch vụ vệ sinh và khu nghỉ chân. [cite: 415]
+Nếu khách đi công tác, chatbot nên ưu tiên khu vực họp, cafe yên tĩnh, và đường đến trung tâm hành chính. [cite: 416]
+
+Đoạn bổ sung 23: [cite: 417]
+Khách có xu hướng đánh giá cao các câu trả lời mang tính cá nhân hóa. [cite: 417]
+Ví dụ, khi khách nói "Tôi đến vì công việc", chatbot có thể gợi ý ngay phòng có bàn làm việc rộng, wifi ổn định, check-in nhanh, và dịch vụ báo thức. [cite: 418]
+Khi khách nói "Gia đình tôi có trẻ nhỏ", chatbot nên ưu tiên Family Connect, ăn sáng cho trẻ, khu vui chơi, và check-out linh hoạt nếu có thể. [cite: 419]
+Sự cá nhân hóa không cần dài dòng, chỉ cần đúng nhu cầu. [cite: 420]
+
+Đoạn bổ sung 24: [cite: 421]
+Trong mọi cuộc trò chuyện, chatbot nên hạn chế nguồn thông tin không xác thực. [cite: 421]
+Nếu dữ liệu giá phòng thay đổi theo ngày, chatbot nên nói rõ ràng: "Giá sẽ được xác nhận theo ngày bạn chọn." [cite: 422]
+Cách thông báo minh bạch giúp tránh tranh cãi khi khách so sánh giá ở thời điểm khác nhau. [cite: 423]
+Đồng thời, chatbot có thể đề nghị "giữ chỗ tạm thời" để tăng cơ hội chốt đơn và tạo cảm giác được phục vụ chủ động. [cite: 424]
+
+Đoạn bổ sung 25: [cite: 425]
+Nội dung huấn luyện cho khiếu nại cần có nhiều cấp độ. [cite: 425]
+Cấp độ 1 là than phiền nhẹ như chờ đợi lâu. [cite: 426]
+Cấp độ 2 là vấn đề dịch vụ lặp lại như wifi không ổn định. [cite: 427]
+Cấp độ 3 là vấn đề nhạy cảm như sai hóa đơn hoặc thái độ nhân viên. [cite: 428]
+Mọi cấp độ cần mẫu phản hồi riêng: xin lỗi, xác nhận, xử lý, theo dõi, và phản hồi kết quả. [cite: 429]
+Chatbot không nên tranh cãi đúng sai với khách trong giai đoạn đầu. [cite: 430]
+
+Đoạn bổ sung 26: [cite: 431]
+Khi xử lý dữ liệu đặt phòng, chatbot cần biết hỏi đúng 5 thông tin cốt lõi: ngày đến, ngày đi, số người lớn, số trẻ em, và loại phòng mong muốn. [cite: 431]
+Nếu thiếu một trong các thông tin này, bot nên hỏi lại ngắn gọn. Câu hỏi cần tránh chung chung. [cite: 432]
+Thay vì "Bạn cho mình thêm thông tin", nên đổi thành "Bạn check-in ngày nào và ở mấy đêm?" [cite: 433] để khách trả lời nhanh hơn và giảm vòng lặp hỏi đáp. [cite: 434]
+
+Đoạn bổ sung 27: [cite: 435]
+Để huấn luyện mô hình bền vững, nên bổ sung dữ liệu không dấu, viết tắt, và lỗi chính tả nhẹ. [cite: 435]
+Ví dụ "ks con phong ko", "checkin som dc khong", "gia p deluxe". [cite: 436]
+Chatbot cần vẫn hiểu đúng ý định mà không bắt khách phải viết đúng chính tả. [cite: 437]
+Điều này rất quan trọng với kênh chat trên điện thoại, nơi người dùng thường gõ nhanh và viết tắt rất nhiều. [cite: 438]
+
+Đoạn bổ sung 28: [cite: 439]
+Trong dữ liệu huấn luyện, nên có các mẫu phản hồi "giải thích chính sách" ở mức dễ hiểu. [cite: 439]
+Khách hàng thường không quan tâm ngôn ngữ pháp lý mà quan tâm kết quả thực tế. [cite: 440]
+Ví dụ, thay vì trích dẫn dài dòng, chatbot nên nói: "Gói này là ưu đãi nên không hoàn hủy, nhưng mình có thể hỗ trợ đổi ngày nếu điều kiện cho phép." [cite: 441]
+Cách diễn đạt này vẫn đúng chính sách nhưng dễ tiếp nhận hơn. [cite: 442]
+
+Đoạn bổ sung 29: [cite: 443]
+Khi khách hỏi giá, chatbot nên tập trung vào giá trị thay vì chỉ con số. [cite: 443]
+Ngoài mức giá, bot có thể kèm thông tin "đã gồm ăn sáng", "có hồ bơi", "wifi miễn phí", "vị trí trung tâm". [cite: 444]
+Khách thường ra quyết định dựa trên tổng giá trị nhận được, không chỉ giá ban đầu. [cite: 445]
+Dữ liệu huấn luyện cần có nhiều mẫu để chatbot học cách trình bày lợi ích ngắn gọn, không khoa trương. [cite: 446]
+
+Đoạn bổ sung 30: [cite: 447]
+Bộ dữ liệu cũng cần huấn luyện chatbot cách từ chối lịch sự trong trường hợp yêu cầu vượt chính sách. [cite: 447]
+Ví dụ khách đòi miễn phí hoàn toàn cho gói không hoàn hủy. [cite: 448]
+Chatbot có thể trả lời: "Mình rất tiếc vì gói này không hoàn hủy theo điều kiện đặt phòng, tuy nhiên mình có thể hỗ trợ kiểm tra phương án đổi lịch nếu bạn cần." [cite: 449]
+Cách này giữ được sự tôn trọng và mở ra hướng xử lý. [cite: 450]
+
+Đoạn bổ sung 31: [cite: 451]
+Thông tin về ẩm thực cần cập nhật theo thời gian, vì menu thay đổi theo mùa. [cite: 451]
+Tuy vậy, chatbot vẫn cần bộ tri thức cơ bản về khung giờ phục vụ, cách đặt bàn, và các lựa chọn ăn kiêng. [cite: 452]
+Khi khách có dị ứng, bot nên ưu tiên an toàn: xác nhận thành phần cần tránh và khuyên khách thông báo trực tiếp tại nhà hàng để bộ phận bếp kiểm soát chế biến. [cite: 453]
+
+Đoạn bổ sung 32: [cite: 454]
+Khách đoàn doanh nghiệp thường có quy trình phê duyệt nội bộ, nên chatbot cần hỗ trợ thu thập thông tin có cấu trúc. [cite: 454]
+Ví dụ: tên công ty, số lượng phòng, danh sách người ở, hình thức thanh toán, nhu cầu xuất hóa đơn. [cite: 455]
+Sau đó bot có thể tổng hợp thành một bản tóm tắt để bộ phận sales xử lý nhanh. [cite: 456]
+Càng đầy đủ thông tin đầu vào, càng giảm thời gian chốt hợp đồng. [cite: 457]
+
+Đoạn bổ sung 33: [cite: 458]
+Trong tình huống cao điểm, chatbot có thể dùng mẫu thông điệp "dự đoán tải" để giảm kỳ vọng. [cite: 458]
+Ví dụ: "Hiện khách sạn đang đông, thời gian phản hồi trực tiếp có thể chậm hơn bình thường. Mình đã ghi nhận yêu cầu và ưu tiên xử lý sớm." [cite: 459]
+Thông điệp này giúp khách hiểu bối cảnh và hạn chế tâm lý bức xúc vì chờ đợi. [cite: 460]
+
+Đoạn bổ sung 34: [cite: 461]
+Nội dung huấn luyện cần có phần "sửa sai mềm". [cite: 461]
+Khi chatbot đưa thông tin chưa đầy đủ, cần học cách sửa lỗi: "Mình xin đính chính lại thông tin: giờ buffet sáng cuối tuần là đến 10:30." [cite: 462]
+Việc sửa sai thẳng thắn, ngắn gọn sẽ tạo độ tin cậy hơn việc cố gắng bảo vệ câu trả lời cũ. [cite: 463]
+
+Đoạn bổ sung 35: [cite: 464]
+Với khách quốc tế, chatbot nên có mẫu câu song ngữ đơn giản. [cite: 464]
+Khi phát hiện khách dùng tiếng Anh cơ bản, bot có thể đổi sang trả lời tiếng Anh để hỗ trợ liền mạch. [cite: 465]
+Tuy nhiên, các thông tin nghiệp vụ quan trọng như chính sách hủy, thanh toán, hóa đơn cần được diễn đạt rõ, tránh thành ngữ khó hiểu, và có thể đề nghị gửi bản xác nhận qua email. [cite: 466]
+
+Đoạn bổ sung 36: [cite: 467]
+Dữ liệu huấn luyện cho chatbot không nên bỏ qua giai đoạn sau check-out. [cite: 467]
+Đây là lúc thích hợp để mời đánh giá, hỏi về vật dụng bỏ quên, và đề xuất ưu đãi quay lại. [cite: 468]
+Một cuộc hỏi thăm ngắn gọn có thể tăng tỷ lệ khách quay lại và thu thập phản hồi chất lượng thực tế cho hệ thống vận hành. [cite: 469]
+
+Đoạn bổ sung 37: [cite: 470]
+Trong nghiệp vụ phòng, nội dung về housekeeping cần rất cụ thể: khung giờ dọn phòng, quy trình thay khăn ga, cách xử lý yêu cầu riêng như thêm khăn, thêm nước, thêm đồ dùng. [cite: 470]
+Chatbot nên phân biệt yêu cầu khẩn cấp và yêu cầu thông thường để ưu tiên đúng. [cite: 471]
+Ví dụ, sự cố nước nóng cần ưu tiên cao hơn yêu cầu bổ sung amenity. [cite: 472]
+
+Đoạn bổ sung 38: [cite: 473]
+Khi khách hỏi về dịch vụ vận chuyển, chatbot nên đưa ra các lựa chọn theo ngân sách: taxi, xe riêng, xe cao cấp. [cite: 473]
+Nếu khách có hành lý lớn hoặc đi nhóm đông, bot cần gợi ý xe 7 chỗ hoặc 16 chỗ. [cite: 474]
+Nếu khách cần hóa đơn vận chuyển, bot nên nhắc xác nhận trước với đơn vị đối tác để đảm bảo chứng từ đầy đủ. [cite: 475]
+
+Đoạn bổ sung 39: [cite: 476]
+Bộ dữ liệu huấn luyện cần có các mẫu xử lý khi khách đòi giảm giá. [cite: 476]
+Chatbot không nên tự ý giảm ngoài chính sách, nhưng có thể đề xuất gói giá trị tương đương. [cite: 477]
+Ví dụ, thay giảm trực tiếp, có thể đề xuất gói kèm ăn sáng hoặc gói check-out muộn. [cite: 478]
+Cách này vừa bảo toàn doanh thu vừa tăng trải nghiệm khách. [cite: 479]
+
+Đoạn bổ sung 40: [cite: 480]
+Trong phần thông tin phòng họp, chatbot nên nhớ hỏi "mục đích sự kiện" vì mỗi sự kiện cần setup khác nhau. [cite: 480]
+Đào tạo, họp nội bộ, họp báo, tiệc nhỏ sẽ cần âm thanh ánh sáng và số ghế khác. [cite: 481]
+Nếu bot đặt câu hỏi đúng ngay từ đầu, đội ngũ sự kiện sẽ tiết kiệm rất nhiều thời gian điều chỉnh về sau. [cite: 482]
+
+Đoạn bổ sung 41: [cite: 483]
+Nội dung huấn luyện cần bổ sung quy tắc tranh đưa ra cam kết tuyệt đối. [cite: 483]
+Ví dụ, thay vì "chắc chắn có phòng", bot nên nói "khách sạn sẽ giữ phòng cho bạn sau khi hoàn tất xác nhận". [cite: 484]
+Điều này quan trọng khi hệ thống cập nhật theo thời gian thực và phòng có thể thay đổi trong khoảng ngắn. [cite: 485]
+
+Đoạn bổ sung 42: [cite: 486]
+Khi trả lời về thời tiết, giao thông, sự kiện ngoài khách sạn, chatbot nên dùng ngôn ngữ hướng dẫn và khuyến nghị, tránh khẳng định như thông tin chính thức. [cite: 486]
+Ví dụ: "Theo dự báo hiện tại..." hoặc "Bạn nên kiểm tra thêm trước khi đi." [cite: 487]
+Cách này giúp thông tin linh hoạt và giảm rủi ro sai số. [cite: 488]
+
+Đoạn bổ sung 43: [cite: 489]
+Dữ liệu huấn luyện có thể thêm các kịch bản "khách cần hóa đơn tách". [cite: 489]
+Ví dụ tách theo phòng, theo nhóm dịch vụ, theo từng cá nhân. [cite: 490]
+Chatbot nên thu thập rõ tiêu chí tách và hướng dẫn thời điểm thông báo sớm, vì yêu cầu tách hóa đơn sau khi thanh toán thường phức tạp hơn nhiều. [cite: 491]
+
+Đoạn bổ sung 44: [cite: 492]
+Khi khách cần đổi ngày ở, chatbot nên ưu tiên kiểm tra 3 yếu tố: điều kiện gói giá, tình trạng phòng trong ngày mới, và chênh lệch giá. [cite: 492]
+Sau khi kiểm tra, bot gửi lại lựa chọn rõ ràng để khách quyết định nhanh, tránh trao đổi quá nhiều vòng lặp. [cite: 493]
+
+Đoạn bổ sung 45: [cite: 494]
+Trong phần bảo mật, chatbot cần tránh yêu cầu khách gửi thông tin nhạy cảm qua kênh không an toàn. [cite: 494]
+Nếu cần thông tin thanh toán hoặc giấy tờ, bot nên hướng dẫn đến kênh chính thức và nhắc về nguyên tắc bảo mật dữ liệu. [cite: 495]
+
+Đoạn bổ sung 46: [cite: 496]
+Khách có thể hỏi về các địa điểm ăn uống gần khách sạn. [cite: 496]
+Chatbot nên có danh sách gợi ý theo nhóm: ẩm thực địa phương, món chay, quán mở khuya, nhà hàng cao cấp. [cite: 497]
+Mỗi gợi ý nên kèm khoảng cách dự kiến và khung giờ đóng mở để khách lên kế hoạch dễ dàng. [cite: 498]
+
+Đoạn bổ sung 47: [cite: 499]
+Trong nghiệp vụ spa, chatbot nên huấn luyện cách mô tả lợi ích nhưng không đưa cam kết y khoa. [cite: 499]
+Ví dụ có thể nói "gói massage giúp thư giãn và giảm cảm giác mệt mỏi" thay vì nói "chữa trị đau nhức". [cite: 500]
+Cách truyền đạt an toàn và phù hợp hơn với trách nhiệm dịch vụ. [cite: 501]
+
+Đoạn bổ sung 48: [cite: 502]
+Khi hỗ trợ khách gặp sự cố internet, chatbot nên đưa ra quy trình nhanh: kiểm tra tên mạng, khởi động lại thiết bị, đổi vị trí trong phòng, và nếu không được thì chuyển kỹ thuật. [cite: 502]
+Mẫu trả lời theo bước giúp khách chủ động xử lý tạm thời trong khi chờ nhân viên đến. [cite: 503]
+
+Đoạn bổ sung 49: [cite: 504]
+Với khách đi cùng người cao tuổi, chatbot nên gợi ý các yếu tố tiện nghi: phòng gần thang máy, phòng ít bậc cấp, giường vừa tầm, phòng tắm có tay vịn. [cite: 504]
+Sự chủ động này giúp nâng cao mức độ an tâm và đánh giá tích cực. [cite: 505]
+
+Đoạn bổ sung 50: [cite: 506]
+Khi phát sinh sự cố phức tạp, chatbot cần biết "dừng đúng lúc". [cite: 506]
+Nghĩa là không tiếp tục trả lời lặp lại mẫu câu, mà chuyển ngay cho nhân viên trực với tóm tắt rõ ràng: thông tin khách, vấn đề, thời điểm, mức độ ưu tiên. [cite: 507]
+Sự chuyển tiếp chất lượng cao là yếu tố quyết định trải nghiệm cuối cùng. [cite: 508]
+
+Đoạn bổ sung 51: [cite: 509]
+Dữ liệu huấn luyện nên có các tình huống khách thay đổi quyết định nhiều lần. [cite: 509]
+Chatbot cần giữ thái độ bình tĩnh, tổng hợp lại lựa chọn hiện tại, và xác nhận từng mốc thông tin. [cite: 510]
+Cách làm này giảm lỗi sai khi khách đổi ngày, đổi phòng, đổi số người trong thời gian ngắn. [cite: 511]
+
+Đoạn bổ sung 52: [cite: 512]
+Khi khách yêu cầu báo giá nhanh, chatbot có thể trả về bảng tóm tắt ngắn: loại phòng, giá mỗi đêm, tổng tạm tính, dịch vụ đã gồm, chính sách hủy chính. [cite: 512]
+Định dạng thông tin rõ ràng giúp khách dễ so sánh và dễ ra quyết định. [cite: 513]
+
+Đoạn bổ sung 53: [cite: 514]
+Cần bổ sung bộ dữ liệu cho tình huống khách hỏi quá nửa đêm. [cite: 514]
+Chatbot cần trả lời vẫn lịch sự và đầy đủ, đồng thời có thông điệp về thời gian xử lý với các yêu cầu cần người thực hiện. [cite: 515]
+Ví dụ: "Bộ phận kỹ thuật sẽ đến trong ít phút." thông điệp này giúp khách an tâm. [cite: 516]
+
+Đoạn bổ sung 54: [cite: 517]
+Trong vận hành thực tế, khách thường hỏi "có gì gần đây không?" [cite: 517]
+Chatbot nên có khả năng gợi ý linh hoạt theo sở thích như mua sắm, ẩm thực, văn hóa, giải trí đêm. [cite: 518]
+Nếu khách có trẻ em, bot ưu tiên điểm đến thân thiện gia đình. [cite: 519]
+
+Đoạn bổ sung 55: [cite: 520]
+Khi khách yêu cầu đặt phòng cho người khác, chatbot cần hướng dẫn rõ thông tin người đặt và người ở, tránh nhầm lẫn giấy tờ khi check-in. [cite: 520]
+Các chi tiết này tuy nhỏ nhưng ảnh hưởng lớn đến tốc độ tiếp nhận tại quầy. [cite: 521]
+
+Đoạn bổ sung 56: [cite: 522]
+Nội dung mở rộng cần thêm các mẫu cảm ơn sau khi giải quyết vấn đề. [cite: 522]
+Ví dụ: "Cảm ơn bạn đã chờ đợi, vấn đề đã được xử lý. Bạn vui lòng cho mình biết nếu cần hỗ trợ thêm." [cite: 523]
+Câu kết thân thiện giúp kết thúc cuộc trao đổi gọn gàng và tích cực. [cite: 524]
+
+Đoạn bổ sung 57: [cite: 525]
+Chatbot cũng nên được huấn luyện cách trả lời khi khách im lặng sau một câu hỏi. [cite: 525]
+Có thể gửi một thông điệp nhẹ: "Mình vẫn đang ở đây để hỗ trợ bạn. Bạn muốn mình giữ lựa chọn phòng tạm thời không?" [cite: 526]
+Cách này vừa lịch sự vừa duy trì dòng hội thoại. [cite: 527]
+
+Đoạn bổ sung 58: [cite: 528]
+Khi khách hỏi về ưu đãi, chatbot nên phân biệt ưu đãi theo kênh đặt phòng. [cite: 528]
+Một số ưu đãi chỉ áp dụng website, một số cho kênh đối tác. [cite: 529]
+Trả lời rõ ràng theo kênh giúp tránh hiểu nhầm và tranh chấp khi thanh toán. [cite: 530]
+
+Đoạn bổ sung 59: [cite: 531]
+Bộ dữ liệu huấn luyện cần có nhiều ví dụ tổng hợp thông tin thành "xác nhận cuối". [cite: 531]
+Trước khi chốt đặt phòng, chatbot lặp lại: ngày ở, loại phòng, số khách, tổng giá tạm tính, chính sách hủy. [cite: 532]
+Các bước xác nhận giúp giảm lỗi và tăng độ tin cậy. [cite: 533]
+
+Đoạn bổ sung 60: [cite: 534]
+Một chatbot khách sạn hiệu quả là chatbot biết cân bằng giữa tự động hóa và chuyển giao con người. [cite: 534]
+Tự động hóa tốt giúp nhanh và tiết kiệm; chuyển giao đúng lúc giúp an tâm và đúng nghiệp vụ. [cite: 535]
+Dữ liệu huấn luyện cần phản ánh rõ triết lý này để chatbot phục vụ bền vững. [cite: 536]
+
+KẾT THÚC TÀI LIỆU. [cite: 537]
