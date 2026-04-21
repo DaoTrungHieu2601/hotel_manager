@@ -8,6 +8,8 @@
                 <div class="flex justify-between gap-4"><dt class="shrink-0 text-slate-600">{{ __('Check-out') }}</dt><dd class="text-right font-medium tabular-nums text-slate-900">{{ $check_out->format('d/m/Y') }}</dd></div>
                 <div class="flex justify-between gap-4"><dt class="shrink-0 text-slate-600">{{ __('Số khách') }}</dt><dd class="text-right font-medium tabular-nums text-slate-900">{{ $guests }}</dd></div>
                 <div class="flex justify-between gap-4 text-lg font-bold text-amber-900"><dt class="shrink-0">{{ __('Giá tham khảo / đêm') }}</dt><dd class="text-right tabular-nums">{{ number_format($room->roomType->default_price, 0, ',', '.') }} ₫</dd></div>
+                <div class="flex justify-between gap-4"><dt class="shrink-0 text-slate-600">{{ __('Tổng giá phòng') }} ({{ $stayNights }} {{ __('đêm') }})</dt><dd class="text-right font-semibold tabular-nums text-slate-900">{{ number_format($roomSubtotal, 0, ',', '.') }} ₫</dd></div>
+                <div class="flex justify-between gap-4 rounded-xl bg-amber-50 px-3 py-2 text-amber-950 ring-1 ring-amber-100"><dt class="shrink-0 font-semibold">{{ __('Tiền cọc bắt buộc') }} (30%)</dt><dd class="text-right text-lg font-bold tabular-nums">{{ number_format($requiredDeposit, 0, ',', '.') }} ₫</dd></div>
             </dl>
             @if ($errors->any())
                 <div class="mt-4 text-sm text-red-600">{{ $errors->first() }}</div>
@@ -22,10 +24,6 @@
                 <input type="hidden" name="guests" value="{{ $guests }}" />
                 @php($s = $siteSetting)
                 @include('customer.booking.partials.planned-times')
-                <div>
-                    <label class="mb-1 block text-sm font-medium text-slate-600" for="deposit_amount">{{ __('Tiền cọc (VNĐ) — tùy chọn') }}</label>
-                    <input id="deposit_amount" type="number" step="1000" min="0" name="deposit_amount" value="{{ old('deposit_amount', 0) }}" class="mt-1 w-full rounded-xl border border-slate-300 bg-white px-3 py-2.5 text-sm text-slate-900 shadow-sm placeholder:text-slate-400 focus:border-amber-500 focus:outline-none focus:ring-1 focus:ring-amber-500" />
-                </div>
                 <div>
                     <label class="mb-1 block text-sm font-medium text-slate-600" for="guest_notes">{{ __('Ghi chú') }}</label>
                     <textarea id="guest_notes" name="guest_notes" rows="3" class="mt-1 w-full rounded-xl border border-slate-300 bg-white px-3 py-2.5 text-sm text-slate-900 shadow-sm placeholder:text-slate-400 focus:border-amber-500 focus:outline-none focus:ring-1 focus:ring-amber-500">{{ old('guest_notes') }}</textarea>

@@ -13,7 +13,7 @@
 
             @if (! empty($loginRequiredToConfirm) && auth()->guest())
                 <div class="mt-4 rounded-xl border border-amber-200 bg-amber-50 px-4 py-3 text-sm text-amber-950">
-                    {{ __('Sau khi thanh toán tại VNPAY, phiên đăng nhập đôi khi chưa kịp khôi phục. Hãy đăng nhập đúng tài khoản đã đặt phòng để xác nhận gửi đơn.') }}
+                    {{ __('Sau khi thanh toán tại VNPAY, phiên đăng nhập đôi khi chưa kịp khôi phục. Hãy đăng nhập đúng tài khoản đã đặt phòng để xem đơn.') }}
                     <a href="{{ route('login') }}" class="ml-1 font-semibold underline">{{ __('Đăng nhập') }}</a>
                 </div>
             @endif
@@ -141,7 +141,7 @@
             @elseif (! empty($loginRequiredToConfirm))
                 <div class="mt-8 space-y-3">
                     <a href="{{ route('login') }}" class="block w-full rounded-full bg-amber-900 py-3 text-center text-sm font-semibold text-white shadow-lg transition hover:bg-amber-950">
-                        {{ __('Đăng nhập để xác nhận gửi đơn') }}
+                        {{ __('Đăng nhập để xem đơn') }}
                     </a>
                     <a href="{{ route('guest.search-rooms') }}" class="block w-full rounded-full border border-slate-300 py-3 text-center text-sm font-medium text-slate-700 transition hover:bg-slate-50">
                         {{ __('Hủy và quay lại tìm phòng') }}

@@ -7,8 +7,7 @@ use App\Models\Booking;
 use App\Models\Room;
 use App\Models\RoomType;
 use App\Models\SiteSetting;
-use App\Models\User;
-use App\Notifications\BookingPendingNotification;
+use App\Services\CustomerBookingSubmitService;
 use App\Services\RoomAvailabilityService;
 use Carbon\Carbon;
 use Illuminate\Http\RedirectResponse;
@@ -18,7 +17,8 @@ use Illuminate\View\View;
 class BookingController extends Controller
 {
     public function __construct(
-        private RoomAvailabilityService $availability
+        private RoomAvailabilityService $availability,
+        private CustomerBookingSubmitService $submitBooking
     ) {}
 
     public function createForRoom(Request $request, Room $room): View|RedirectResponse
@@ -52,12 +52,21 @@ class BookingController extends Controller
                 ->with('error', __('Phòng không còn trống trong khoảng thời gian đã chọn.'));
         }
 
+        [$stayNights, $roomSubtotal, $requiredDeposit] = $this->roomSubtotalAndDeposit(
+            $from,
+            $to,
+            (float) $type->default_price
+        );
+
         return view('customer.booking.create-room', [
             'room' => $room->load('roomType'),
             'check_in' => $from,
             'check_out' => $to,
             'guests' => $guests,
             'siteSetting' => SiteSetting::instance(),
+            'stayNights' => $stayNights,
+            'roomSubtotal' => $roomSubtotal,
+            'requiredDeposit' => $requiredDeposit,
         ]);
     }
 
@@ -67,7 +76,6 @@ class BookingController extends Controller
             'check_in' => ['required', 'date'],
             'check_out' => ['required', 'date', 'after:check_in'],
             'guests' => ['required', 'integer', 'min:1'],
-            'deposit_amount' => ['nullable', 'numeric', 'min:0'],
             'guest_notes' => ['nullable', 'string', 'max:1000'],
             'guest_planned_check_in' => ['nullable', 'date_format:H:i'],
             'guest_planned_check_out' => ['nullable', 'date_format:H:i'],
@@ -86,13 +94,7 @@ class BookingController extends Controller
             return redirect()->back()->withInput()->with('error', __('Phòng không khả dụng.'));
         }
 
-        $deposit = max(0, (float) ($validated['deposit_amount'] ?? 0));
-        if ($deposit > 0 && $deposit < 100000) {
-            return redirect()
-                ->back()
-                ->withInput()
-                ->with('error', __('Tiền cọc tối thiểu là 100.000 ₫ (hoặc nhập 0 nếu không cọc).'));
-        }
+        [, , $deposit] = $this->roomSubtotalAndDeposit($from, $to, (float) $type->default_price);
 
         $plannedIn = $validated['guest_planned_check_in'] ?? null;
         $plannedOut = $validated['guest_planned_check_out'] ?? null;
@@ -121,6 +123,15 @@ class BookingController extends Controller
             ->route('customer.bookings.payment', $booking);
     }
 
+    private function roomSubtotalAndDeposit(Carbon $from, Carbon $to, float $ratePerNight): array
+    {
+        $nights = max(1, $from->diffInDays($to));
+        $roomSubtotal = $ratePerNight * $nights;
+        $deposit = round($roomSubtotal * 0.30, 2);
+
+        return [$nights, $roomSubtotal, $deposit];
+    }
+
     public function create(Request $request): View|RedirectResponse
     {
         $validated = $request->validate([
@@ -146,12 +157,21 @@ class BookingController extends Controller
             ])->with('error', __('Loại phòng đã hết trong khoảng thời gian này.'));
         }
 
+        [$stayNights, $roomSubtotal, $requiredDeposit] = $this->roomSubtotalAndDeposit(
+            $from,
+            $to,
+            (float) $type->default_price
+        );
+
         return view('customer.booking.create', [
             'roomType' => $type,
             'check_in' => $from,
             'check_out' => $to,
             'guests' => (int) $validated['guests'],
             'siteSetting' => SiteSetting::instance(),
+            'stayNights' => $stayNights,
+            'roomSubtotal' => $roomSubtotal,
+            'requiredDeposit' => $requiredDeposit,
         ]);
     }
 
@@ -162,7 +182,6 @@ class BookingController extends Controller
             'check_in' => ['required', 'date'],
             'check_out' => ['required', 'date', 'after:check_in'],
             'guests' => ['required', 'integer', 'min:1'],
-            'deposit_amount' => ['nullable', 'numeric', 'min:0'],
             'guest_notes' => ['nullable', 'string', 'max:1000'],
             'guest_planned_check_in' => ['nullable', 'date_format:H:i'],
             'guest_planned_check_out' => ['nullable', 'date_format:H:i'],
@@ -180,13 +199,7 @@ class BookingController extends Controller
             return redirect()->back()->withInput()->with('error', __('Không còn phòng trống cho loại này.'));
         }
 
-        $deposit = max(0, (float) ($validated['deposit_amount'] ?? 0));
-        if ($deposit > 0 && $deposit < 100000) {
-            return redirect()
-                ->back()
-                ->withInput()
-                ->with('error', __('Tiền cọc tối thiểu là 100.000 ₫ (hoặc nhập 0 nếu không cọc).'));
-        }
+        [, , $deposit] = $this->roomSubtotalAndDeposit($from, $to, (float) $type->default_price);
 
         $plannedIn = $validated['guest_planned_check_in'] ?? null;
         $plannedOut = $validated['guest_planned_check_out'] ?? null;
@@ -243,33 +256,16 @@ class BookingController extends Controller
                 ->with('error', __('Vui lòng hoàn tất thanh toán cọc trước khi xác nhận đơn.'));
         }
 
-        $from = $booking->check_in->copy()->startOfDay();
-        $to = $booking->check_out->copy()->startOfDay();
+        $result = $this->submitBooking->submitDraftBooking($booking->fresh());
 
-        if ($booking->room_id) {
-            if (! $this->availability->roomIsFree($booking->room_id, $from, $to, $booking->id)) {
-                return redirect()
-                    ->route('customer.bookings.review', $booking)
-                    ->with('error', __('Phòng không còn trống. Vui lòng chọn ngày hoặc phòng khác.'));
-            }
-        } elseif ($this->availability->countAvailableRoomsForType($booking->room_type_id, $from, $to) < 1) {
+        if (! $result['ok']) {
             return redirect()
                 ->route('customer.bookings.review', $booking)
-                ->with('error', __('Loại phòng đã hết chỗ trong khoảng thời gian này.'));
-        }
-
-        $booking->update(['status' => Booking::STATUS_PENDING]);
-
-        $staff = User::query()
-            ->whereIn('role', [User::ROLE_ADMIN, User::ROLE_RECEPTIONIST])
-            ->get();
-        $booking->load(['user', 'room', 'roomType']);
-        foreach ($staff as $member) {
-            $member->notify(new BookingPendingNotification($booking));
+                ->with('error', $result['error']);
         }
 
         return redirect()
-            ->route('customer.bookings.index')
+            ->route('customer.bookings.show', $booking)
             ->with('status', __('Đơn đã gửi — chờ lễ tân xác nhận.'));
     }
 
@@ -283,6 +279,10 @@ class BookingController extends Controller
         }
 
         if ($booking->deposit_paid_at) {
+            if ($booking->status === Booking::STATUS_PENDING) {
+                return redirect()->route('customer.bookings.show', $booking);
+            }
+
             return redirect()->route('customer.bookings.review', $booking);
         }
 
@@ -324,9 +324,17 @@ class BookingController extends Controller
             'payment_method' => $data['gateway'],
         ]);
 
+        $result = $this->submitBooking->submitDraftBooking($booking->fresh());
+
+        if (! $result['ok']) {
+            return redirect()
+                ->route('customer.bookings.review', $booking)
+                ->with('error', $result['error']);
+        }
+
         return redirect()
-            ->route('customer.bookings.review', $booking)
-            ->with('status', __('Thanh toán cọc đã được ghi nhận. Vui lòng xem lại đơn và xác nhận gửi đơn.'));
+            ->route('customer.bookings.show', $booking)
+            ->with('status', __('Thanh toán thành công. Đơn đã được gửi — chờ lễ tân xác nhận.'));
     }
 
     public function index(Request $request): View
@@ -342,9 +350,39 @@ class BookingController extends Controller
 
     public function continueAfterVnpay(Request $request, Booking $booking): View|RedirectResponse
     {
-        abort_unless($booking->status === Booking::STATUS_DRAFT, 404);
+        abort_unless(
+            in_array($booking->status, [Booking::STATUS_DRAFT, Booking::STATUS_PENDING], true),
+            404
+        );
 
         $statusFlash = session('status');
+        $errorFlash = session('error');
+
+        if ($booking->status === Booking::STATUS_PENDING) {
+            if ($request->user() && (int) $request->user()->id === (int) $booking->user_id) {
+                $redirect = redirect()->route('customer.bookings.show', $booking);
+                if ($statusFlash) {
+                    $redirect->with('status', $statusFlash);
+                }
+                if ($errorFlash) {
+                    $redirect->with('error', $errorFlash);
+                }
+
+                return $redirect;
+            }
+
+            session(['url.intended' => route('customer.bookings.show', $booking)]);
+
+            $toLogin = redirect()->route('login');
+            if ($statusFlash) {
+                $toLogin->with('status', $statusFlash);
+            }
+            if ($errorFlash) {
+                $toLogin->with('error', $errorFlash);
+            }
+
+            return $toLogin;
+        }
 
         if ($booking->depositOutstanding()) {
             if ($request->user() && (int) $request->user()->id === (int) $booking->user_id) {
@@ -362,6 +400,9 @@ class BookingController extends Controller
             $redirect = redirect()->route('customer.bookings.review', $booking);
             if ($statusFlash) {
                 $redirect->with('status', $statusFlash);
+            }
+            if ($errorFlash) {
+                $redirect->with('error', $errorFlash);
             }
 
             return $redirect;
@@ -389,7 +430,7 @@ class BookingController extends Controller
             return redirect()->route('customer.bookings.review', $booking);
         }
 
-        $booking->load(['roomType', 'room', 'bookingServices.service', 'invoice']);
+        $booking->load(['roomType', 'room', 'user', 'bookingServices.service', 'invoice']);
 
         return view('customer.bookings.show', compact('booking'));
     }
